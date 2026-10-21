@@ -78,3 +78,18 @@ h1{font-size:clamp(2.6rem,5vw,4.7rem);line-height:.98;letter-spacing:-.05em;marg
 }
 @media(max-width:440px){.cards{grid-template-columns:1fr}.hero-copy{padding:28px 0}.actions .button{width:100%;text-align:center}h1{font-size:2.8rem}.side-nav nav.open{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+/* Interaktive Deutschlandkarte – Leaflet */
+.map-intro{max-width:850px;margin-bottom:22px}
+.map-shell{border:3px solid var(--ink);background:#fff;padding:8px}
+#project-map{width:100%;height:min(68vh,680px);min-height:420px;background:#e9edf0;border:1px solid #777}
+.map-controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0}
+.map-controls label{font-weight:800}
+.map-controls select,.map-controls input{font:inherit;border:2px solid var(--ink);padding:9px 10px;background:#fff;max-width:100%}
+.map-status{padding:14px 16px;border-left:7px solid var(--blue);background:#f4f6f8;margin:16px 0}
+.map-legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.9rem;margin:12px 0}
+.map-legend span{display:inline-flex;align-items:center;gap:7px}
+.map-dot{display:inline-block;width:13px;height:13px;background:var(--red);border:2px solid var(--ink);border-radius:50%}
+.map-popup h3{margin:0 0 6px;font-size:1.05rem}.map-popup p{margin:5px 0}
+@media(max-width:760px){#project-map{height:62vh;min-height:360px}.map-shell{padding:4px}.map-controls{align-items:stretch;flex-direction:column}.map-controls select,.map-controls input{width:100%}}
