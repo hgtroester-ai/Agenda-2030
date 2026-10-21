@@ -52,7 +52,7 @@
       if(p.url&&/^https?:\/\//i.test(p.url))popup+='<p><a href="'+safeText(p.url)+'" target="_blank" rel="noopener noreferrer">Quelle / Projektseite öffnen ↗</a></p>';
       popup+='</div>';marker.bindPopup(popup);pins++;
     });
-    status.textContent='Suchergebnisse: '+matched.length+' von '+features.length+' Registereinträgen; davon '+pins+' belegte Stadtzuordnungen auf der Karte.';
+    status.textContent='Suchergebnisse: '+matched.length+' von '+features.length+' Registereinträgen in der Liste; davon '+pins+' freigegebene, geografisch zugeordnete Markierungen auf der Karte.';
     if(!matched.length){results.innerHTML='<p class="notice">Keine Projekte gefunden. Bitte Suchbegriff oder Themenbereich ändern.</p>';return;}
     results.innerHTML=matched.map(f=>{const p=f.properties||{};let s='<article class="project-result"><div class="result-top"><span class="result-id">'+safeText(p.id)+'</span><span class="result-status">'+safeText(p.status||'Status offen')+'</span></div><h3>'+safeText(p.name)+'</h3><p class="result-category">'+safeText(p.category||'Themenbereich offen')+'</p>'+(p.description?'<p>'+safeText(p.description)+'</p>':'')+(p.city?'<p><strong>Stadtzuordnung:</strong> '+safeText(p.city)+' — '+safeText(p.location_note||'Stadtgebiet')+'</p>':'<p class="small">Noch kein eindeutig bestätigter einzelner Kartenstandort im Register.</p>')+(p.url&&/^https?:\/\//i.test(p.url)?'<p><a href="'+safeText(p.url)+'" target="_blank" rel="noopener noreferrer">Projektquelle öffnen ↗</a></p>':'')+'</article>';}).join('');
   }
