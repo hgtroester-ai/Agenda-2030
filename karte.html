@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Interaktive Deutschlandkarte mit geprüften Projekten der Agenda 2030.">
-<title>Deutschlandkarte | Agenda 2030</title>
+<title>Deutschlandkarte | Agenda 2030 · v1.1</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
@@ -13,17 +13,17 @@
 <div class="layout"><main>
 <section class="pagehead"><p class="eyebrow">Projekte in Deutschland</p><h1>Deutschlandkarte</h1><p class="lead">Gute Ideen sichtbar machen – Orte entdecken, Projekte kennenlernen und Möglichkeiten zum Mitmachen finden.</p></section>
 <section class="content map-intro">
-<p>Auf dieser Karte erscheinen ausschließlich Projekte, deren Angaben und Standort geprüft wurden. Neue Einträge werden schrittweise ergänzt.</p>
+<p>Die Karte zeigt Projekte mit nachvollziehbarer Ortszuordnung. Einige Punkte markieren bewusst nur Stadt, Gemeinde oder Projektgebiet – nicht zwingend eine exakte Adresse. Der Prüfstatus bleibt beim jeweiligen Eintrag sichtbar.</p>
 <div class="map-status" id="map-status" role="status">Projektregister wird geladen …</div>
 <div class="map-controls"><label for="category-filter">Themenbereich</label><select id="category-filter"><option value="all">Alle Themenbereiche</option></select><label for="project-search">Projekt suchen</label><input id="project-search" type="search" placeholder="Name oder Ort eingeben"></div>
 <div class="map-shell"><div id="project-map" aria-label="Interaktive Karte von Deutschland mit geprüften Projekten"></div></div>
-<div class="map-legend"><span><i class="map-dot"></i> Belegtes Projekt mit Stadtzuordnung</span></div>
-<h2>Projekte im Register</h2><p class="small">Die Suche und Themenfilter durchsuchen das Projektregister. Ein Kartenpunkt erscheint nur, wenn das Register eine belegte Stadtzuordnung hergibt. Stadtpunkte sind keine exakten Projektadressen.</p><div id="project-results" class="project-results" aria-live="polite"></div>
+<div class="map-legend"><span><i class="map-dot"></i> Ortszuordnung vorhanden (Genauigkeit steht im Eintrag)</span></div>
+<h2>Projekte im Register</h2><p class="small">Die Suche und Themenfilter durchsuchen das Projektregister. Kartenpunkte können Stadt-, Gemeinde-, Stadtteil- oder näherungsweise Adresszuordnungen sein. Die Genauigkeit und offene Prüfpunkte stehen im Eintrag und im Karten-Popup.</p><div id="project-results" class="project-results" aria-live="polite"></div>
 <p><small>Kartengrundlage: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap-Mitwirkende</a>. Die Karte nutzt Leaflet, eine quelloffene JavaScript-Kartenbibliothek.</small></p>
-<p>Fehlende oder noch nicht geprüfte Standorte werden nicht als Kartenpunkte dargestellt. Die Projektliste bleibt davon unabhängig bestehen.</p>
+<p>Einige überregionale Organisationen und Projektarten sind weiterhin ohne Kartenpunkt gelistet, bis konkrete lokale Standorte belastbar zugeordnet sind.</p>
 </section></main>
 <aside class="side-nav"><p class="nav-label">Navigation</p><nav id="side-menu" aria-label="Hauptnavigation"><a href="index.html">Startseite</a><a href="agenda.html">Unsere Agenda</a><a href="projekte.html">Projekte</a><a href="karte.html" aria-current="page">Deutschlandkarte</a><a href="mitmachen.html">Mitmachen</a><a href="grundsaetze.html">Grundsätze</a></nav><div class="side-note"><strong>Geprüfte Projekte.</strong><br>Orte entdecken. Menschen verbinden. Aktiv werden.</div></aside></div>
-<footer class="site-footer"><div class="footer-inner"><div><a class="brand" href="index.html"><span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span><span class="brand-name">AGENDA 2030<small>Gemeinsam Zukunft gestalten</small></span></a><div class="footer-links"><a href="agenda.html">Über uns</a><a href="mitmachen.html">Mitmachen</a><a href="karte.html">Deutschlandkarte</a><a href="grundsaetze.html">Grundsätze</a></div></div></div><div class="bottom-grid"></div></footer>
+<footer class="site-footer"><div class="footer-inner"><div><a class="brand" href="index.html"><span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span><span class="brand-name">AGENDA 2030<small>Gemeinsam Zukunft gestalten</small></span></a><div class="footer-links"><a href="agenda.html">Über uns</a><a href="mitmachen.html">Mitmachen</a><a href="karte.html">Deutschlandkarte</a><a href="grundsaetze.html">Grundsätze</a></div></div></div><div class="bottom-grid"></div><p class="small" style="text-align:center">Projektregister und Karte · Version 1.1 · 21.10.2026</p></footer>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
 (function(){
@@ -42,8 +42,9 @@
     const matched=features.filter(f=>{const p=f.properties||{};const hay=[p.id,p.name,p.city,p.category,p.description,p.status,p.type].join(' ').toLocaleLowerCase('de');return (cat==='all'||p.category===cat)&&(!q||hay.includes(q));});
     let pins=0;
     matched.forEach(f=>{const p=f.properties||{}, c=f.geometry&&f.geometry.coordinates;
-      if(p.status!=='BELEGT'||!p.map_pin||!c||c.length<2)return;
-      const marker=L.circleMarker([c[1],c[0]],{radius:8,color:'#111',weight:2,fillColor:'#e5232e',fillOpacity:.95}).addTo(layer);
+      if(!p.map_pin||!c||c.length<2)return;
+      const fill=p.status==='BELEGT'?'#e5232e':(p.status==='TEILWEISE GEPRÜFT'?'#e5a000':'#777777');
+      const marker=L.circleMarker([c[1],c[0]],{radius:8,color:'#111',weight:2,fillColor:fill,fillOpacity:.95}).addTo(layer);
       let popup='<div class="map-popup"><h3>'+safeText(p.name)+'</h3>';
       if(p.city)popup+='<p><strong>Stadt:</strong> '+safeText(p.city)+'</p>';
       if(p.category)popup+='<p><strong>Thema:</strong> '+safeText(p.category)+'</p>';
@@ -52,7 +53,7 @@
       if(p.url&&/^https?:\/\//i.test(p.url))popup+='<p><a href="'+safeText(p.url)+'" target="_blank" rel="noopener noreferrer">Quelle / Projektseite öffnen ↗</a></p>';
       popup+='</div>';marker.bindPopup(popup);pins++;
     });
-    status.textContent='Suchergebnisse: '+matched.length+' von '+features.length+' Registereinträgen in der Liste; davon '+pins+' freigegebene, geografisch zugeordnete Markierungen auf der Karte.';
+    status.textContent='Suchergebnisse: '+matched.length+' von '+features.length+' Registereinträgen in der Liste; davon '+pins+' geografisch zugeordnete Markierungen auf der Karte (rot: belegt, gelb: teilweise geprüft, grau: offen).';
     if(!matched.length){results.innerHTML='<p class="notice">Keine Projekte gefunden. Bitte Suchbegriff oder Themenbereich ändern.</p>';return;}
     results.innerHTML=matched.map(f=>{const p=f.properties||{};let s='<article class="project-result"><div class="result-top"><span class="result-id">'+safeText(p.id)+'</span><span class="result-status">'+safeText(p.status||'Status offen')+'</span></div><h3>'+safeText(p.name)+'</h3><p class="result-category">'+safeText(p.category||'Themenbereich offen')+'</p>'+(p.description?'<p>'+safeText(p.description)+'</p>':'')+(p.city?'<p><strong>Stadtzuordnung:</strong> '+safeText(p.city)+' — '+safeText(p.location_note||'Stadtgebiet')+'</p>':'<p class="small">Noch kein eindeutig bestätigter einzelner Kartenstandort im Register.</p>')+(p.url&&/^https?:\/\//i.test(p.url)?'<p><a href="'+safeText(p.url)+'" target="_blank" rel="noopener noreferrer">Projektquelle öffnen ↗</a></p>':'')+'</article>';}).join('');
   }

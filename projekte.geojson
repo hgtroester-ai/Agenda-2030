@@ -19,8 +19,9 @@
         "description": "Randzeitenbetreuung für Kinder von Eltern im Schichtdienst",
         "url": "https://muetterzentrum-dortmund.de/projekt-randzeiten/",
         "city": "Dortmund",
-        "location_note": "Stadtgebiet; kein exakter Projektstandort im Register",
-        "map_pin": true
+        "location_note": "Stadtgebiet Dortmund; Zuordnung belegt, genaue Projektadresse noch nicht in dieser Kartendatei verifiziert.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet"
       }
     },
     {
@@ -34,9 +35,10 @@
         "type": "Organisation",
         "description": "Telefonkontakte und Unterstützung gegen Einsamkeit im Alter",
         "url": "https://silbernetz.org/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Berlin",
+        "location_note": "Hauptsitz Berlin; Angebot bundesweit, lokale Projektorte nicht als einzelne Standorte erfasst.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -82,9 +84,10 @@
         "type": "Organisation",
         "description": "Fördert Nachbarschaftsengagement, Klimaschutzideen und Begegnung",
         "url": "https://www.nebenan-stiftung.de/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Berlin / bundesweit",
+        "location_note": "Organisation mit bundesweiter Aktivität; konkrete lokale Projekte nicht zugeordnet.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -114,9 +117,10 @@
         "type": "Organisation/Projekt",
         "description": "Ermöglicht schwerstkranken Menschen Wunschfahrten",
         "url": "https://www.wuenschewagen.de/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "bundesweit",
+        "location_note": "Landes- und Regionalverbände; lokale Wünschewagen-Standorte separat zu erfassen.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -178,9 +182,10 @@
         "type": "Organisation",
         "description": "Ehrenamtliche Frühstücksangebote für Kinder an Schulen",
         "url": "https://www.brotzeitfuerkinder.com/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "bundesweit",
+        "location_note": "Bundesweite Schulprojekte; einzelne Schulen und Einsatzorte nicht zugeordnet.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -194,9 +199,10 @@
         "type": "Organisation",
         "description": "Unterstützt Familien mit schwerkranken oder beeinträchtigten Kindern",
         "url": "https://www.nestwaerme.org/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Trier / Netzwerkstandorte",
+        "location_note": "Hauptsitz laut Recherche Trier; weitere Standorte/Netzwerke noch präzisieren.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -217,8 +223,9 @@
         "description": "Kulturelle Teilhabe für Menschen mit geringem Einkommen",
         "url": "https://kulturleben-berlin.de/",
         "city": "Berlin",
-        "location_note": "Stadtgebiet; kein exakter Projektstandort im Register",
-        "map_pin": true
+        "location_note": "Berlin-Zuordnung; Kartenpunkt ist eine Stadtzuordnung, keine exakte Projektadresse.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet"
       }
     },
     {
@@ -296,9 +303,10 @@
         "type": "Organisation/Netzwerk",
         "description": "Praktische Hilfe für Familien nach der Geburt",
         "url": "https://wellcome-online.de/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "bundesweit",
+        "location_note": "Netzwerk mit lokalen Standorten; einzelne Standorte müssen erfasst werden.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -376,9 +384,10 @@
         "type": "Netzwerk/Projektart",
         "description": "Gemeinschaftlich finanzierte Landwirtschaft und Ernteanteile",
         "url": "https://www.solidarische-landwirtschaft.org/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "bundesweit",
+        "location_note": "Viele einzelne Höfe; keine einzelnen Höfe in dieser Kartenfassung zugeordnet.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -424,9 +433,10 @@
         "type": "Netzwerk/Projektart",
         "description": "Gemeinsam reparieren, Wissen teilen, Abfall vermeiden",
         "url": "https://www.repaircafe.org/de/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "bundesweit / international",
+        "location_note": "Netzwerk; lokale Repair-Cafés müssen einzeln erfasst werden.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -440,9 +450,10 @@
         "type": "Netzwerk/Initiative",
         "description": "Lebensmittel retten und Verschwendung reduzieren",
         "url": "https://foodsharing.de/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "bundesweit",
+        "location_note": "Lokale Fairteiler und Foodsaving-Gruppen müssen einzeln erfasst werden.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -472,9 +483,10 @@
         "type": "Organisation",
         "description": "Freiwilligeneinsätze für Wald- und Ökosystemschutz",
         "url": "https://www.bergwaldprojekt.de/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Höchberg / bundesweite Einsatzorte",
+        "location_note": "Geschäftsstelle und wechselnde Projekt-/Waldstandorte sind getrennt zu führen.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -527,7 +539,13 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4314,
+          52.4814
+        ]
+      },
       "properties": {
         "id": "A2030-032",
         "name": "RESTLOS GLÜCKLICH e.V.",
@@ -536,9 +554,10 @@
         "type": "Organisation",
         "description": "Bildung zu Lebensmittelwertschätzung und nachhaltiger Ernährung",
         "url": "https://www.restlos-gluecklich.berlin/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Berlin",
+        "location_note": "Offizielle Vereinsadresse: Berlin Global Village, Am Sudhaus 2, 12053 Berlin; Koordinate näherungsweise, vor endgültiger Adresskartierung prüfen.",
+        "map_pin": true,
+        "location_precision": "Adresse näherungsweise"
       }
     },
     {
@@ -639,7 +658,13 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.148,
+          52.785
+        ]
+      },
       "properties": {
         "id": "A2030-039",
         "name": "Ökodorf Sieben Linden",
@@ -648,9 +673,10 @@
         "type": "Konkretes Projekt",
         "description": "Ökologisch ausgerichtetes Gemeinschaftsprojekt",
         "url": "https://siebenlinden.org/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Beetzendorf / Ortsteil Poppau (Sieben Linden)",
+        "location_note": "Projektort laut Register: Ökodorf Sieben Linden bei Poppau; Koordinate auf Ortsteil-/Projektgebietsebene, keine geprüfte Eingangstür.",
+        "map_pin": true,
+        "location_precision": "Ortsteil-/Projektgebiet"
       }
     },
     {
@@ -744,9 +770,10 @@
         "type": "Netzwerk",
         "description": "Unterstützt selbstorganisierte Hausprojekte",
         "url": "https://www.syndikat.org/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "bundesweit",
+        "location_note": "Dachnetzwerk; einzelne Hausprojekte sind eigene Standorte und müssen separat erfasst werden.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -767,7 +794,13 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9,
+          54.78
+        ]
+      },
       "properties": {
         "id": "A2030-047",
         "name": "Bürgerwindpark Klixbüll",
@@ -776,9 +809,10 @@
         "type": "Konkretes Projekt",
         "description": "Regional verankertes Windenergieprojekt",
         "url": "https://www.klixbuell.de/seite/202373/2.-klixb%C3%BCller-b%C3%BCrgerwindpark.html",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Klixbüll, Schleswig-Holstein",
+        "location_note": "Gemeindezuordnung Klixbüll; Koordinate näherungsweise auf Gemeindeebene, keine Anlagenkoordinate.",
+        "map_pin": true,
+        "location_precision": "Gemeindeebene"
       }
     },
     {
@@ -879,7 +913,13 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.63,
+          49.48
+        ]
+      },
       "properties": {
         "id": "A2030-054",
         "name": "Bürgerbus Weilerbach",
@@ -888,9 +928,10 @@
         "type": "Lokales Projekt/Name zu prüfen",
         "description": "Ehrenamtliche Mobilität im ländlichen Raum laut Sammlung",
         "url": "",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Weilerbach",
+        "location_note": "Ortszuordnung aus Recherche; genaue Haltestelle, Trägeradresse und aktueller Betriebsstatus noch zu prüfen.",
+        "map_pin": true,
+        "location_precision": "Ortsmitte näherungsweise"
       }
     },
     {
@@ -952,9 +993,10 @@
         "type": "Organisation",
         "description": "Tandems und Begegnungen zwischen Menschen mit und ohne Einwanderungsgeschichte",
         "url": "https://www.start-with-a-friend.de/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "bundesweit",
+        "location_note": "Lokale Gruppen in verschiedenen Städten; konkrete Anlaufstellen noch zu erfassen.",
+        "map_pin": false,
+        "location_precision": "Netzwerk / keine einzelne Kartenadresse"
       }
     },
     {
@@ -1311,7 +1353,13 @@
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.389,
+          52.526
+        ]
+      },
       "properties": {
         "id": "A2030-080",
         "name": "Gangway e.V.",
@@ -1320,9 +1368,10 @@
         "type": "Organisation",
         "description": "Straßensozialarbeit in Berlin",
         "url": "https://gangway.de/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Berlin",
+        "location_note": "Offizielle Zentrale: Schumannstraße 5, 10117 Berlin; Koordinate näherungsweise zur Adresse. Gangway arbeitet stadtweit mit lokalen Teams.",
+        "map_pin": true,
+        "location_precision": "Adresse näherungsweise"
       }
     },
     {
@@ -1775,13 +1824,20 @@
         "description": "Mehrgenerationen-Wohnprojekt mit Gemeinschaftsraum",
         "url": "https://www.agw-ulm.de/projekt/",
         "city": "Ulm",
-        "location_note": "Stadtgebiet; kein exakter Projektstandort im Register",
-        "map_pin": true
+        "location_note": "Projekt in Ulm; Koordinate auf Stadt-/Projektgebietsebene, genaue Adresse separat prüfen.",
+        "map_pin": true,
+        "location_precision": "Stadt-/Projektgebiet"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.958,
+          48.425
+        ]
+      },
       "properties": {
         "id": "A2030-109",
         "name": "Weinberg Carré, Ulm",
@@ -1790,14 +1846,21 @@
         "type": "Quartiers-/Wohnprojekt",
         "description": "Wohnungsbauprojekt mit gefördertem Wohnraum",
         "url": "https://www.ulm.de/aktuelle-meldungen/z%C3%B6a/november-2019/weinbergcarre",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Ulm (Weinberg Carré / Eselsberg)",
+        "location_note": "Stadtteil-/Projektgebiet Eselsberg näherungsweise; genaue Projektadresse vor endgültiger Adresskartierung prüfen.",
+        "map_pin": true,
+        "location_precision": "Stadtteil-/Projektgebiet"
       }
     },
     {
       "type": "Feature",
-      "geometry": null,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.96,
+          48.4235
+        ]
+      },
       "properties": {
         "id": "A2030-110",
         "name": "Gemeinsam wohnen am Weinberg, Ulm",
@@ -1806,9 +1869,10 @@
         "type": "Konkretes Wohnprojekt",
         "description": "Barrierefreie, teils geförderte und betreute Wohnungen",
         "url": "https://www.gs-architektur.de/projekte/gemeinsam-wohnen-am-weinberg-ulm/",
-        "city": "",
-        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
-        "map_pin": false
+        "city": "Ulm (Gemeinsam wohnen am Weinberg)",
+        "location_note": "Stadtteil-/Projektgebiet Weinberg näherungsweise; genaue Projektadresse vor endgültiger Adresskartierung prüfen.",
+        "map_pin": true,
+        "location_precision": "Stadtteil-/Projektgebiet"
       }
     },
     {
@@ -2037,8 +2101,9 @@
         "description": "Bürgerideen und kommunale Mitgestaltung",
         "url": "https://unser.muenchen.de/muenchenbudget2026",
         "city": "München",
-        "location_note": "Stadtgebiet; kein exakter Projektstandort im Register",
-        "map_pin": true
+        "location_note": "MünchenBudget 2026; Stadtzuordnung, keine einzelne Projektadresse.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet"
       }
     },
     {

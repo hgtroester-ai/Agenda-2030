@@ -7,7 +7,11 @@
     "topic": "Menschen helfen",
     "description": "Randzeitenbetreuung für Kinder von Eltern im Schichtdienst",
     "source": "https://muetterzentrum-dortmund.de/projekt-randzeiten/",
-    "open": ""
+    "open": "",
+    "city": "Dortmund",
+    "location_note": "Stadtgebiet Dortmund; Zuordnung belegt, genaue Projektadresse noch nicht in dieser Kartendatei verifiziert.",
+    "location_precision": "Stadtgebiet",
+    "map_pin": true
   },
   {
     "id": "A2030-002",
@@ -17,7 +21,11 @@
     "topic": "Menschen helfen",
     "description": "Telefonkontakte und Unterstützung gegen Einsamkeit im Alter",
     "source": "https://silbernetz.org/",
-    "open": ""
+    "open": "",
+    "city": "Berlin",
+    "location_note": "Hauptsitz Berlin; Angebot bundesweit, lokale Projektorte nicht als einzelne Standorte erfasst.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-003",
@@ -47,7 +55,11 @@
     "topic": "Menschen helfen",
     "description": "Fördert Nachbarschaftsengagement, Klimaschutzideen und Begegnung",
     "source": "https://www.nebenan-stiftung.de/",
-    "open": ""
+    "open": "",
+    "city": "Berlin / bundesweit",
+    "location_note": "Organisation mit bundesweiter Aktivität; konkrete lokale Projekte nicht zugeordnet.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-006",
@@ -67,7 +79,11 @@
     "topic": "Menschen helfen",
     "description": "Ermöglicht schwerstkranken Menschen Wunschfahrten",
     "source": "https://www.wuenschewagen.de/",
-    "open": ""
+    "open": "",
+    "city": "bundesweit",
+    "location_note": "Landes- und Regionalverbände; lokale Wünschewagen-Standorte separat zu erfassen.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-008",
@@ -107,7 +123,11 @@
     "topic": "Menschen helfen",
     "description": "Ehrenamtliche Frühstücksangebote für Kinder an Schulen",
     "source": "https://www.brotzeitfuerkinder.com/",
-    "open": ""
+    "open": "",
+    "city": "bundesweit",
+    "location_note": "Bundesweite Schulprojekte; einzelne Schulen und Einsatzorte nicht zugeordnet.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-012",
@@ -117,7 +137,11 @@
     "topic": "Menschen helfen",
     "description": "Unterstützt Familien mit schwerkranken oder beeinträchtigten Kindern",
     "source": "https://www.nestwaerme.org/",
-    "open": ""
+    "open": "",
+    "city": "Trier / Netzwerkstandorte",
+    "location_note": "Hauptsitz laut Recherche Trier; weitere Standorte/Netzwerke noch präzisieren.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-013",
@@ -127,7 +151,11 @@
     "topic": "Menschen helfen",
     "description": "Kulturelle Teilhabe für Menschen mit geringem Einkommen",
     "source": "https://kulturleben-berlin.de/",
-    "open": ""
+    "open": "",
+    "city": "Berlin",
+    "location_note": "Berlin-Zuordnung; Kartenpunkt ist eine Stadtzuordnung, keine exakte Projektadresse.",
+    "location_precision": "Stadtgebiet",
+    "map_pin": true
   },
   {
     "id": "A2030-014",
@@ -177,7 +205,11 @@
     "topic": "Menschen helfen",
     "description": "Praktische Hilfe für Familien nach der Geburt",
     "source": "https://wellcome-online.de/",
-    "open": ""
+    "open": "",
+    "city": "bundesweit",
+    "location_note": "Netzwerk mit lokalen Standorten; einzelne Standorte müssen erfasst werden.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-019",
@@ -227,7 +259,11 @@
     "topic": "Klima & Umwelt",
     "description": "Gemeinschaftlich finanzierte Landwirtschaft und Ernteanteile",
     "source": "https://www.solidarische-landwirtschaft.org/",
-    "open": ""
+    "open": "",
+    "city": "bundesweit",
+    "location_note": "Viele einzelne Höfe; keine einzelnen Höfe in dieser Kartenfassung zugeordnet.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-023",
@@ -257,7 +293,11 @@
     "topic": "Klima & Umwelt",
     "description": "Gemeinsam reparieren, Wissen teilen, Abfall vermeiden",
     "source": "https://www.repaircafe.org/de/",
-    "open": ""
+    "open": "",
+    "city": "bundesweit / international",
+    "location_note": "Netzwerk; lokale Repair-Cafés müssen einzeln erfasst werden.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-026",
@@ -267,7 +307,11 @@
     "topic": "Klima & Umwelt",
     "description": "Lebensmittel retten und Verschwendung reduzieren",
     "source": "https://foodsharing.de/",
-    "open": ""
+    "open": "",
+    "city": "bundesweit",
+    "location_note": "Lokale Fairteiler und Foodsaving-Gruppen müssen einzeln erfasst werden.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-027",
@@ -287,7 +331,11 @@
     "topic": "Klima & Umwelt",
     "description": "Freiwilligeneinsätze für Wald- und Ökosystemschutz",
     "source": "https://www.bergwaldprojekt.de/",
-    "open": ""
+    "open": "",
+    "city": "Höchberg / bundesweite Einsatzorte",
+    "location_note": "Geschäftsstelle und wechselnde Projekt-/Waldstandorte sind getrennt zu führen.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-029",
@@ -327,7 +375,11 @@
     "topic": "Klima & Umwelt",
     "description": "Bildung zu Lebensmittelwertschätzung und nachhaltiger Ernährung",
     "source": "https://www.restlos-gluecklich.berlin/",
-    "open": ""
+    "open": "",
+    "city": "Berlin",
+    "location_note": "Offizielle Vereinsadresse: Berlin Global Village, Am Sudhaus 2, 12053 Berlin; Koordinate näherungsweise, vor endgültiger Adresskartierung prüfen.",
+    "location_precision": "Adresse näherungsweise",
+    "map_pin": true
   },
   {
     "id": "A2030-033",
@@ -397,7 +449,11 @@
     "topic": "Klima & Umwelt",
     "description": "Ökologisch ausgerichtetes Gemeinschaftsprojekt",
     "source": "https://siebenlinden.org/",
-    "open": ""
+    "open": "",
+    "city": "Beetzendorf / Ortsteil Poppau (Sieben Linden)",
+    "location_note": "Projektort laut Register: Ökodorf Sieben Linden bei Poppau; Koordinate auf Ortsteil-/Projektgebietsebene, keine geprüfte Eingangstür.",
+    "location_precision": "Ortsteil-/Projektgebiet",
+    "map_pin": true
   },
   {
     "id": "A2030-040",
@@ -457,7 +513,11 @@
     "topic": "Alternative Ökonomie",
     "description": "Unterstützt selbstorganisierte Hausprojekte",
     "source": "https://www.syndikat.org/",
-    "open": ""
+    "open": "",
+    "city": "bundesweit",
+    "location_note": "Dachnetzwerk; einzelne Hausprojekte sind eigene Standorte und müssen separat erfasst werden.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-046",
@@ -477,7 +537,11 @@
     "topic": "Alternative Ökonomie",
     "description": "Regional verankertes Windenergieprojekt",
     "source": "https://www.klixbuell.de/seite/202373/2.-klixb%C3%BCller-b%C3%BCrgerwindpark.html",
-    "open": ""
+    "open": "",
+    "city": "Klixbüll, Schleswig-Holstein",
+    "location_note": "Gemeindezuordnung Klixbüll; Koordinate näherungsweise auf Gemeindeebene, keine Anlagenkoordinate.",
+    "location_precision": "Gemeindeebene",
+    "map_pin": true
   },
   {
     "id": "A2030-048",
@@ -547,7 +611,11 @@
     "topic": "Alternative Ökonomie",
     "description": "Ehrenamtliche Mobilität im ländlichen Raum laut Sammlung",
     "source": "",
-    "open": "Träger, Fahrplan und Kosten prüfen"
+    "open": "Träger, Fahrplan und Kosten prüfen",
+    "city": "Weilerbach",
+    "location_note": "Ortszuordnung aus Recherche; genaue Haltestelle, Trägeradresse und aktueller Betriebsstatus noch zu prüfen.",
+    "location_precision": "Ortsmitte näherungsweise",
+    "map_pin": true
   },
   {
     "id": "A2030-055",
@@ -587,7 +655,11 @@
     "topic": "Integration",
     "description": "Tandems und Begegnungen zwischen Menschen mit und ohne Einwanderungsgeschichte",
     "source": "https://www.start-with-a-friend.de/",
-    "open": ""
+    "open": "",
+    "city": "bundesweit",
+    "location_note": "Lokale Gruppen in verschiedenen Städten; konkrete Anlaufstellen noch zu erfassen.",
+    "location_precision": "Netzwerk / keine einzelne Kartenadresse",
+    "map_pin": false
   },
   {
     "id": "A2030-059",
@@ -817,7 +889,11 @@
     "topic": "Jugend & Soziales",
     "description": "Straßensozialarbeit in Berlin",
     "source": "https://gangway.de/",
-    "open": ""
+    "open": "",
+    "city": "Berlin",
+    "location_note": "Offizielle Zentrale: Schumannstraße 5, 10117 Berlin; Koordinate näherungsweise zur Adresse. Gangway arbeitet stadtweit mit lokalen Teams.",
+    "location_precision": "Adresse näherungsweise",
+    "map_pin": true
   },
   {
     "id": "A2030-081",
@@ -1097,7 +1173,11 @@
     "topic": "Zusätzliche Ergänzungen",
     "description": "Mehrgenerationen-Wohnprojekt mit Gemeinschaftsraum",
     "source": "https://www.agw-ulm.de/projekt/",
-    "open": ""
+    "open": "",
+    "city": "Ulm",
+    "location_note": "Projekt in Ulm; Koordinate auf Stadt-/Projektgebietsebene, genaue Adresse separat prüfen.",
+    "location_precision": "Stadt-/Projektgebiet",
+    "map_pin": true
   },
   {
     "id": "A2030-109",
@@ -1107,7 +1187,11 @@
     "topic": "Zusätzliche Ergänzungen",
     "description": "Wohnungsbauprojekt mit gefördertem Wohnraum",
     "source": "https://www.ulm.de/aktuelle-meldungen/z%C3%B6a/november-2019/weinbergcarre",
-    "open": ""
+    "open": "",
+    "city": "Ulm (Weinberg Carré / Eselsberg)",
+    "location_note": "Stadtteil-/Projektgebiet Eselsberg näherungsweise; genaue Projektadresse vor endgültiger Adresskartierung prüfen.",
+    "location_precision": "Stadtteil-/Projektgebiet",
+    "map_pin": true
   },
   {
     "id": "A2030-110",
@@ -1117,7 +1201,11 @@
     "topic": "Zusätzliche Ergänzungen",
     "description": "Barrierefreie, teils geförderte und betreute Wohnungen",
     "source": "https://www.gs-architektur.de/projekte/gemeinsam-wohnen-am-weinberg-ulm/",
-    "open": ""
+    "open": "",
+    "city": "Ulm (Gemeinsam wohnen am Weinberg)",
+    "location_note": "Stadtteil-/Projektgebiet Weinberg näherungsweise; genaue Projektadresse vor endgültiger Adresskartierung prüfen.",
+    "location_precision": "Stadtteil-/Projektgebiet",
+    "map_pin": true
   },
   {
     "id": "A2030-111",
@@ -1257,7 +1345,11 @@
     "topic": "Bürgerbeteiligung",
     "description": "Bürgerideen und kommunale Mitgestaltung",
     "source": "https://unser.muenchen.de/muenchenbudget2026",
-    "open": ""
+    "open": "",
+    "city": "München",
+    "location_note": "MünchenBudget 2026; Stadtzuordnung, keine einzelne Projektadresse.",
+    "location_precision": "Stadtgebiet",
+    "map_pin": true
   },
   {
     "id": "A2030-127",
