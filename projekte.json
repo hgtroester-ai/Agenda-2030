@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "A2030-001",
+    "name": "Mütterzentrum Dortmund – Eulen & Lerchen",
+    "status": "BELEGT",
+    "type": "Lokales Projekt",
+    "topic": "Menschen helfen",
+    "description": "Randzeitenbetreuung für Kinder von Eltern im Schichtdienst",
+    "source": "https://muetterzentrum-dortmund.de/projekt-randzeiten/",
+    "open": ""
+  },
+  {
+    "id": "A2030-002",
+    "name": "Silbernetz e.V.",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Menschen helfen",
+    "description": "Telefonkontakte und Unterstützung gegen Einsamkeit im Alter",
+    "source": "https://silbernetz.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-003",
+    "name": "OmaGehtOnline",
+    "status": "OFFEN",
+    "type": "Projekt/Name zu prüfen",
+    "topic": "Menschen helfen",
+    "description": "Jugendliche unterstützen ältere Menschen bei Smartphone und digitalen Diensten",
+    "source": "",
+    "open": "Offizielle Quelle / Ort noch zu ermitteln"
+  },
+  {
+    "id": "A2030-004",
+    "name": "Taschengeldbörsen",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Menschen helfen",
+    "description": "Vermittlung kleiner Hilfen zwischen Jugendlichen und Menschen mit Unterstützungsbedarf",
+    "source": "",
+    "open": "Lokale Träger ergänzen"
+  },
+  {
+    "id": "A2030-005",
+    "name": "nebenan.de Stiftung",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Menschen helfen",
+    "description": "Fördert Nachbarschaftsengagement, Klimaschutzideen und Begegnung",
+    "source": "https://www.nebenan-stiftung.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-006",
+    "name": "Kältebusse / Kältehilfe",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Menschen helfen",
+    "description": "Lokale Hilfe für Menschen ohne sicheren Schlafplatz",
+    "source": "",
+    "open": "Betreiber je Stadt ergänzen"
+  },
+  {
+    "id": "A2030-007",
+    "name": "ASB-Wünschewagen",
+    "status": "BELEGT",
+    "type": "Organisation/Projekt",
+    "topic": "Menschen helfen",
+    "description": "Ermöglicht schwerstkranken Menschen Wunschfahrten",
+    "source": "https://www.wuenschewagen.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-008",
+    "name": "Helfende Hände e.V.",
+    "status": "OFFEN",
+    "type": "Name nicht eindeutig",
+    "topic": "Menschen helfen",
+    "description": "Angeblich Unterstützung pflegender Angehöriger",
+    "source": "",
+    "open": "Exakten Verein und Ort klären"
+  },
+  {
+    "id": "A2030-009",
+    "name": "Spendenparlamente",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Menschen helfen",
+    "description": "Bürger entscheiden gemeinschaftlich über Förderungen sozialer Projekte",
+    "source": "",
+    "open": "Aktive lokale Parlamente prüfen"
+  },
+  {
+    "id": "A2030-010",
+    "name": "Tatkraft e.V.",
+    "status": "OFFEN",
+    "type": "Name nicht eindeutig",
+    "topic": "Menschen helfen",
+    "description": "Angeblich ehrenamtliche Wohnungsrenovierung",
+    "source": "",
+    "open": "Träger, Ort und Tätigkeit klären"
+  },
+  {
+    "id": "A2030-011",
+    "name": "brotZeit e.V.",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Menschen helfen",
+    "description": "Ehrenamtliche Frühstücksangebote für Kinder an Schulen",
+    "source": "https://www.brotzeitfuerkinder.com/",
+    "open": ""
+  },
+  {
+    "id": "A2030-012",
+    "name": "nestwärme e.V.",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Organisation",
+    "topic": "Menschen helfen",
+    "description": "Unterstützt Familien mit schwerkranken oder beeinträchtigten Kindern",
+    "source": "https://www.nestwaerme.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-013",
+    "name": "KulturLeben Berlin",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Menschen helfen",
+    "description": "Kulturelle Teilhabe für Menschen mit geringem Einkommen",
+    "source": "https://kulturleben-berlin.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-014",
+    "name": "Leihläden / Leihbar",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Menschen helfen",
+    "description": "Gegenstände ausleihen statt neu kaufen",
+    "source": "",
+    "open": "Lokale Standorte erfassen"
+  },
+  {
+    "id": "A2030-015",
+    "name": "Seniorengenossenschaften / Zeitbanken",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Menschen helfen",
+    "description": "Gegenseitige Hilfe mit Zeitguthaben oder Leistungsmodellen",
+    "source": "",
+    "open": "Modell je Region prüfen"
+  },
+  {
+    "id": "A2030-016",
+    "name": "Gabenzäune",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Menschen helfen",
+    "description": "Direkte Weitergabe von Lebensmitteln oder Kleidung",
+    "source": "",
+    "open": "Lokale Regeln und Träger prüfen"
+  },
+  {
+    "id": "A2030-017",
+    "name": "Kiezbündnisse",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Menschen helfen",
+    "description": "Nachbarschaftsnetzwerke zur Unterstützung lokaler Treffpunkte und Läden",
+    "source": "",
+    "open": "Konkrete Bündnisse erfassen"
+  },
+  {
+    "id": "A2030-018",
+    "name": "wellcome",
+    "status": "BELEGT",
+    "type": "Organisation/Netzwerk",
+    "topic": "Menschen helfen",
+    "description": "Praktische Hilfe für Familien nach der Geburt",
+    "source": "https://wellcome-online.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-019",
+    "name": "Herzensretter / Laien-Reanimation",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart/Name zu prüfen",
+    "topic": "Menschen helfen",
+    "description": "Vermittlung von Wiederbelebung und Erster Hilfe",
+    "source": "",
+    "open": "Konkrete Anbieter prüfen"
+  },
+  {
+    "id": "A2030-020",
+    "name": "Umsonstläden",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Menschen helfen",
+    "description": "Kostenlose Tausch- und Weitergaberäume",
+    "source": "",
+    "open": "Aktive Standorte prüfen"
+  },
+  {
+    "id": "A2030-122",
+    "name": "Mehrgenerationenhäuser – Bundesprogramm",
+    "status": "BELEGT",
+    "type": "Programm/Netzwerk",
+    "topic": "Menschen helfen",
+    "description": "Begegnung und lokale Angebote zwischen Generationen",
+    "source": "",
+    "open": "Aktuelle offizielle Standortliste ergänzen"
+  },
+  {
+    "id": "A2030-021",
+    "name": "Bürgerenergiegenossenschaften / BBEn",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Netzwerk/Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Bürgerbeteiligung an erneuerbaren Energieprojekten",
+    "source": "https://www.buendnis-buergerenergie.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-022",
+    "name": "Solidarische Landwirtschaft (SoLaWi)",
+    "status": "BELEGT",
+    "type": "Netzwerk/Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Gemeinschaftlich finanzierte Landwirtschaft und Ernteanteile",
+    "source": "https://www.solidarische-landwirtschaft.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-023",
+    "name": "MünchenBudget",
+    "status": "BELEGT",
+    "type": "Kommunales Beteiligungsverfahren",
+    "topic": "Klima & Umwelt",
+    "description": "Bürgerideen für die Stadt einbringen und priorisieren",
+    "source": "https://unser.muenchen.de/muenchenbudget2026",
+    "open": ""
+  },
+  {
+    "id": "A2030-024",
+    "name": "Balkonkraftwerk-Sammelbestellungen",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Nachbarschaftliche Beschaffung und Information zu Steckersolar",
+    "source": "",
+    "open": "Lokale Initiativen erfassen"
+  },
+  {
+    "id": "A2030-025",
+    "name": "Repair Cafés / anstiftung",
+    "status": "BELEGT",
+    "type": "Netzwerk/Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Gemeinsam reparieren, Wissen teilen, Abfall vermeiden",
+    "source": "https://www.repaircafe.org/de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-026",
+    "name": "Foodsharing",
+    "status": "BELEGT",
+    "type": "Netzwerk/Initiative",
+    "topic": "Klima & Umwelt",
+    "description": "Lebensmittel retten und Verschwendung reduzieren",
+    "source": "https://foodsharing.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-027",
+    "name": "Moor-Retter-Initiativen",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Moorpflege und Renaturierung",
+    "source": "",
+    "open": "Konkrete Naturschutzprojekte erfassen"
+  },
+  {
+    "id": "A2030-028",
+    "name": "Bergwaldprojekt e.V.",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Klima & Umwelt",
+    "description": "Freiwilligeneinsätze für Wald- und Ökosystemschutz",
+    "source": "https://www.bergwaldprojekt.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-029",
+    "name": "Waldbrücke e.V.",
+    "status": "OFFEN",
+    "type": "Name nicht eindeutig",
+    "topic": "Klima & Umwelt",
+    "description": "In der Sammlung zusammen mit Bergwaldprojekt erwähnt",
+    "source": "",
+    "open": "Eigenständigen Träger identifizieren"
+  },
+  {
+    "id": "A2030-030",
+    "name": "Plastikfreie Stadt (Flensburg/Rostock)",
+    "status": "OFFEN",
+    "type": "Projekt/Name zu prüfen",
+    "topic": "Klima & Umwelt",
+    "description": "Lokale Plastikvermeidungsaktionen laut Ausgangssammlung",
+    "source": "",
+    "open": "Kampagne und Träger verifizieren"
+  },
+  {
+    "id": "A2030-031",
+    "name": "Klimabündnisse / Klimaentscheide",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Netzwerk/Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Bürgerinitiativen für kommunalen Klimaschutz",
+    "source": "",
+    "open": "Konkrete Stadt und Status prüfen"
+  },
+  {
+    "id": "A2030-032",
+    "name": "RESTLOS GLÜCKLICH e.V.",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Klima & Umwelt",
+    "description": "Bildung zu Lebensmittelwertschätzung und nachhaltiger Ernährung",
+    "source": "https://www.restlos-gluecklich.berlin/",
+    "open": ""
+  },
+  {
+    "id": "A2030-033",
+    "name": "Gemeinschaftsgärten / Prinzessinnengärten",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart/Beispiel",
+    "topic": "Klima & Umwelt",
+    "description": "Urbanes Gärtnern, Begegnung und Umweltbildung",
+    "source": "",
+    "open": "Aktive Standorte prüfen"
+  },
+  {
+    "id": "A2030-034",
+    "name": "Baumpatenschaften",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Freiwillige pflegen oder bewässern Stadtbäume",
+    "source": "",
+    "open": "Kommunale Angebote erfassen"
+  },
+  {
+    "id": "A2030-035",
+    "name": "Energiewende-Stammtische",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Nachbarschaftlicher Austausch zu Energieeinsparung und Heizungen",
+    "source": "",
+    "open": "Fachlichkeit und Unabhängigkeit prüfen"
+  },
+  {
+    "id": "A2030-036",
+    "name": "RhineCleanUp",
+    "status": "BELEGT",
+    "type": "Netzwerk/Projekt",
+    "topic": "Klima & Umwelt",
+    "description": "Müllsammelaktionen an Flüssen und Gewässern",
+    "source": "https://www.rhinecleanup.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-037",
+    "name": "Zero-Waste-Vereine und Tauschbörsen",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Wiederverwendung und Abfallvermeidung",
+    "source": "",
+    "open": "Lokale Gruppen erfassen"
+  },
+  {
+    "id": "A2030-038",
+    "name": "Fahrrad-Reparatur-Kollektive",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Selbstverwaltete Werkstätten und nachhaltige Mobilität",
+    "source": "",
+    "open": "Werkstätten vor Ort erfassen"
+  },
+  {
+    "id": "A2030-039",
+    "name": "Ökodorf Sieben Linden",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Konkretes Projekt",
+    "topic": "Klima & Umwelt",
+    "description": "Ökologisch ausgerichtetes Gemeinschaftsprojekt",
+    "source": "https://siebenlinden.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-040",
+    "name": "Bienen- und Insektenbiotope Wilnsdorf",
+    "status": "OFFEN",
+    "type": "Lokales Projekt/Name zu prüfen",
+    "topic": "Klima & Umwelt",
+    "description": "Schul- und Bürgerkooperationen laut Sammlung",
+    "source": "",
+    "open": "Gemeinde/Träger identifizieren"
+  },
+  {
+    "id": "A2030-041",
+    "name": "Tiny-House-Genossenschaften",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Klima & Umwelt",
+    "description": "Gemeinschaftliche flächensparende Wohnprojekte",
+    "source": "",
+    "open": "Konkrete Projekte und Baurecht prüfen"
+  },
+  {
+    "id": "A2030-042",
+    "name": "Brandenburger Solareuro",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Regelung/Modell",
+    "topic": "Alternative Ökonomie",
+    "description": "Kommunale Beteiligung an bestimmten Energieprojekten",
+    "source": "",
+    "open": "Aktuelle Rechtsgrundlage prüfen"
+  },
+  {
+    "id": "A2030-043",
+    "name": "Energieautarkes Dorf Feldheim",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Konkretes Projekt",
+    "topic": "Alternative Ökonomie",
+    "description": "Lokale erneuerbare Energie- und Wärmeversorgung",
+    "source": "",
+    "open": "Aktuellen Betreiber/Status ergänzen"
+  },
+  {
+    "id": "A2030-044",
+    "name": "Regionalwert AG",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Unternehmen/Netzwerk",
+    "topic": "Alternative Ökonomie",
+    "description": "Bürgerkapital für regionale ökologische Lebensmittelwirtschaft",
+    "source": "",
+    "open": "Konkrete Regionalwert-Gesellschaft prüfen"
+  },
+  {
+    "id": "A2030-045",
+    "name": "Mietshäuser Syndikat",
+    "status": "BELEGT",
+    "type": "Netzwerk",
+    "topic": "Alternative Ökonomie",
+    "description": "Unterstützt selbstorganisierte Hausprojekte",
+    "source": "https://www.syndikat.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-046",
+    "name": "Genossenschaftliche Dorfläden",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Alternative Ökonomie",
+    "description": "Gemeinschaftlich getragene Nahversorgung",
+    "source": "",
+    "open": "Aktive Läden und Träger erfassen"
+  },
+  {
+    "id": "A2030-047",
+    "name": "Bürgerwindpark Klixbüll",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Konkretes Projekt",
+    "topic": "Alternative Ökonomie",
+    "description": "Regional verankertes Windenergieprojekt",
+    "source": "https://www.klixbuell.de/seite/202373/2.-klixb%C3%BCller-b%C3%BCrgerwindpark.html",
+    "open": ""
+  },
+  {
+    "id": "A2030-048",
+    "name": "Quartiers-Gutscheine",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Alternative Ökonomie",
+    "description": "Lokale Gutscheinsysteme für regionalen Handel",
+    "source": "",
+    "open": "Aktive Systeme prüfen"
+  },
+  {
+    "id": "A2030-049",
+    "name": "Wohnungsbaugenossenschaften von unten",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Alternative Ökonomie",
+    "description": "Gemeinschaftlicher Bau bezahlbaren Wohnraums",
+    "source": "",
+    "open": "Konkrete Genossenschaften erfassen"
+  },
+  {
+    "id": "A2030-050",
+    "name": "afb social & green IT",
+    "status": "BELEGT",
+    "type": "Inklusionsunternehmen",
+    "topic": "Alternative Ökonomie",
+    "description": "IT-Wiederaufbereitung und inklusive Arbeitsplätze",
+    "source": "https://www.afb-group.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-051",
+    "name": "Kreativ-Genossenschaften",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Alternative Ökonomie",
+    "description": "Gemeinsame Ateliers, Werkstätten und Ausstattung",
+    "source": "",
+    "open": "Konkrete Genossenschaften ergänzen"
+  },
+  {
+    "id": "A2030-052",
+    "name": "Kauf-Lokal-Initiativen",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Alternative Ökonomie",
+    "description": "Unterstützung inhabergeführter Läden und regionaler Betriebe",
+    "source": "",
+    "open": "Lokale Initiativen erfassen"
+  },
+  {
+    "id": "A2030-053",
+    "name": "Marktschwärmer",
+    "status": "OFFEN",
+    "type": "Plattform/Netzwerk",
+    "topic": "Alternative Ökonomie",
+    "description": "Direktvermarktung regionaler Lebensmittel laut Sammlung",
+    "source": "",
+    "open": "Aktuellen Deutschlandstatus prüfen"
+  },
+  {
+    "id": "A2030-054",
+    "name": "Bürgerbus Weilerbach",
+    "status": "OFFEN",
+    "type": "Lokales Projekt/Name zu prüfen",
+    "topic": "Alternative Ökonomie",
+    "description": "Ehrenamtliche Mobilität im ländlichen Raum laut Sammlung",
+    "source": "",
+    "open": "Träger, Fahrplan und Kosten prüfen"
+  },
+  {
+    "id": "A2030-055",
+    "name": "Coworking-Genossenschaften im ländlichen Raum",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Alternative Ökonomie",
+    "description": "Gemeinschaftliche Arbeitsorte in kleineren Gemeinden",
+    "source": "",
+    "open": "Konkrete Standorte erfassen"
+  },
+  {
+    "id": "A2030-056",
+    "name": "Fair-Teilen-Stiftungen",
+    "status": "OFFEN",
+    "type": "Name nicht eindeutig",
+    "topic": "Alternative Ökonomie",
+    "description": "Angebliches Stiftungsmodell zur Reinvestition sozialer Gewinne",
+    "source": "",
+    "open": "Exakten Rechtsträger finden"
+  },
+  {
+    "id": "A2030-057",
+    "name": "Bürgerentscheide für Integration",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Integration",
+    "description": "Kommunale Beteiligung an menschenwürdigen Unterkünften und Angeboten",
+    "source": "",
+    "open": "Konkrete Orte und Beschlüsse erfassen"
+  },
+  {
+    "id": "A2030-058",
+    "name": "Start with a Friend e.V.",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Organisation",
+    "topic": "Integration",
+    "description": "Tandems und Begegnungen zwischen Menschen mit und ohne Einwanderungsgeschichte",
+    "source": "https://www.start-with-a-friend.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-059",
+    "name": "Flüchtlinge Willkommen / Refugees Welcome",
+    "status": "OFFEN",
+    "type": "Projekt/Name zu klären",
+    "topic": "Integration",
+    "description": "Wohnraumvermittlung an Geflüchtete laut Sammlung",
+    "source": "",
+    "open": "Aktuellen Status und genaue Marke prüfen"
+  },
+  {
+    "id": "A2030-060",
+    "name": "Über den Tellerrand e.V.",
+    "status": "BELEGT",
+    "type": "Organisation/Netzwerk",
+    "topic": "Integration",
+    "description": "Begegnung, Kochen und Mentoring zwischen Menschen verschiedener Herkunft",
+    "source": "https://ueberdentellerrand.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-061",
+    "name": "Bike Bridge / Bike & Belong",
+    "status": "BELEGT",
+    "type": "Organisation/Projekt",
+    "topic": "Integration",
+    "description": "Fahrradangebote und Begegnung, besonders für Frauen mit Flucht-/Migrationserfahrung",
+    "source": "https://bikebridge.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-062",
+    "name": "Refugee Law Clinics",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Netzwerk",
+    "topic": "Integration",
+    "description": "Niedrigschwellige rechtliche Beratung für Geflüchtete",
+    "source": "",
+    "open": "Lokale Beratungsstellen einzeln prüfen"
+  },
+  {
+    "id": "A2030-063",
+    "name": "Social-Bee",
+    "status": "OFFEN",
+    "type": "Organisation/Unternehmen",
+    "topic": "Integration",
+    "description": "Arbeitsmarktintegration laut Ausgangssammlung",
+    "source": "",
+    "open": "Aktuellen Status und Angebot prüfen"
+  },
+  {
+    "id": "A2030-064",
+    "name": "SINGA Deutschland",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Netzwerk/Programm",
+    "topic": "Integration",
+    "description": "Unternehmerische Ideen und berufliche Netzwerke von Zugewanderten",
+    "source": "",
+    "open": "Aktuelle Programme verifizieren"
+  },
+  {
+    "id": "A2030-065",
+    "name": "Chancenwerk e.V.",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Integration",
+    "description": "Lernförderung und Peer-Learning",
+    "source": "https://chancenwerk.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-066",
+    "name": "Multaka",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Kulturvermittlungsprojekt",
+    "topic": "Integration",
+    "description": "Mehrsprachige Museumsführungen durch Menschen mit Fluchterfahrung",
+    "source": "",
+    "open": "Aktive Träger und Museen prüfen"
+  },
+  {
+    "id": "A2030-067",
+    "name": "Sportvereine / Landessportbünde",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Netzwerk/Projektart",
+    "topic": "Integration",
+    "description": "Sport als Zugang zu Begegnung und Teilhabe",
+    "source": "",
+    "open": "Kosten und aktuelle Angebote je Verein prüfen"
+  },
+  {
+    "id": "A2030-068",
+    "name": "Sprachcafés",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Integration",
+    "description": "Informelle Begegnung und Deutschübung",
+    "source": "",
+    "open": "Aktive lokale Gruppen erfassen"
+  },
+  {
+    "id": "A2030-069",
+    "name": "Willkommensbündnisse",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Integration",
+    "description": "Lokale Begleitung, Sachspenden und Orientierung",
+    "source": "",
+    "open": "Konkrete Träger identifizieren"
+  },
+  {
+    "id": "A2030-070",
+    "name": "Heimatgarten-Projekte",
+    "status": "OFFEN",
+    "type": "Projektart/Name zu prüfen",
+    "topic": "Integration",
+    "description": "Gemeinsames Gärtnern als Integrationsangebot",
+    "source": "",
+    "open": "Konkrete Projekte belegen"
+  },
+  {
+    "id": "A2030-071",
+    "name": "Bantu e.V.",
+    "status": "OFFEN",
+    "type": "Name nicht eindeutig",
+    "topic": "Integration",
+    "description": "Angebliche psychosoziale Unterstützung für geflüchtete Kinder",
+    "source": "",
+    "open": "Verein, Ort und Angebot klären"
+  },
+  {
+    "id": "A2030-072",
+    "name": "Kiron Open Higher Education",
+    "status": "OFFEN",
+    "type": "Organisation/Programm",
+    "topic": "Integration",
+    "description": "Digitale Bildungsangebote für Geflüchtete laut Sammlung",
+    "source": "",
+    "open": "Aktuellen Status und Träger prüfen"
+  },
+  {
+    "id": "A2030-073",
+    "name": "Näh-Coops für geflüchtete Frauen",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Integration",
+    "description": "Kreativwerkstätten, Handwerk und Begegnung",
+    "source": "",
+    "open": "Konkrete Werkstätten erfassen"
+  },
+  {
+    "id": "A2030-074",
+    "name": "Patenschaften/Vormundschaften für unbegleitete Minderjährige",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Integration",
+    "description": "Begleitung junger Geflüchteter",
+    "source": "",
+    "open": "Patenschaft und gesetzliche Vormundschaft unterscheiden"
+  },
+  {
+    "id": "A2030-075",
+    "name": "Kulturbrücke e.V.",
+    "status": "OFFEN",
+    "type": "Name nicht eindeutig",
+    "topic": "Integration",
+    "description": "Angebliche interkulturelle Theaterprojekte",
+    "source": "",
+    "open": "Exakten Träger identifizieren"
+  },
+  {
+    "id": "A2030-076",
+    "name": "Wir zusammen",
+    "status": "OFFEN",
+    "type": "Initiative/Name zu prüfen",
+    "topic": "Integration",
+    "description": "Wirtschaftsinitiative für Integration/Ausbildung laut Sammlung",
+    "source": "",
+    "open": "Aktuellen Status und Träger prüfen"
+  },
+  {
+    "id": "A2030-124",
+    "name": "Flüchtlinge Willkommen",
+    "status": "OFFEN",
+    "type": "Projekt/Name zu klären",
+    "topic": "Integration",
+    "description": "Historisch mit WG-Wohnraum für Geflüchtete verbunden",
+    "source": "",
+    "open": "Aktuellen Status prüfen"
+  },
+  {
+    "id": "A2030-077",
+    "name": "Break the Fake e.V.",
+    "status": "OFFEN",
+    "type": "Name nicht eindeutig",
+    "topic": "Jugend & Soziales",
+    "description": "Angebliche studentische Aufklärung zu Fake News",
+    "source": "",
+    "open": "Verein und Aktivität verifizieren"
+  },
+  {
+    "id": "A2030-078",
+    "name": "related e.V.",
+    "status": "OFFEN",
+    "type": "Name nicht eindeutig",
+    "topic": "Jugend & Soziales",
+    "description": "Angebliche Initiative gegen digitale Radikalisierung/Hate Speech",
+    "source": "",
+    "open": "Exakten Verein identifizieren"
+  },
+  {
+    "id": "A2030-079",
+    "name": "Offener Jugendtreff Kirchanschöring",
+    "status": "OFFEN",
+    "type": "Lokales Projekt/Name zu prüfen",
+    "topic": "Jugend & Soziales",
+    "description": "Selbstverwalteter Jugendtreff laut Sammlung",
+    "source": "",
+    "open": "Gemeinde und aktuellen Betrieb prüfen"
+  },
+  {
+    "id": "A2030-080",
+    "name": "Gangway e.V.",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Jugend & Soziales",
+    "description": "Straßensozialarbeit in Berlin",
+    "source": "https://gangway.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-081",
+    "name": "balou e.V. Dortmund",
+    "status": "OFFEN",
+    "type": "Organisation/Name zu prüfen",
+    "topic": "Jugend & Soziales",
+    "description": "Angebliches Bürgerzentrum für Jugendkultur/Streetwork",
+    "source": "",
+    "open": "Name, Ort und Tätigkeitsfeld abgleichen"
+  },
+  {
+    "id": "A2030-082",
+    "name": "Die Arche",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Jugend & Soziales",
+    "description": "Unterstützung von Kindern und Familien",
+    "source": "https://www.kinderprojekt-arche.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-083",
+    "name": "ROCK YOUR LIFE!",
+    "status": "BELEGT",
+    "type": "Organisation/Netzwerk",
+    "topic": "Jugend & Soziales",
+    "description": "Mentoring für Jugendliche",
+    "source": "https://rockyourlife.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-084",
+    "name": "Kein Abseits! e.V.",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Organisation",
+    "topic": "Jugend & Soziales",
+    "description": "Patenschaften und Freizeitaktivitäten für Kinder",
+    "source": "https://www.kein-abseits.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-085",
+    "name": "Jugend hackt",
+    "status": "BELEGT",
+    "type": "Programm/Netzwerk",
+    "topic": "Jugend & Soziales",
+    "description": "Digitale Projekte und Lernen für junge Menschen",
+    "source": "https://jugendhackt.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-086",
+    "name": "Serlo",
+    "status": "BELEGT",
+    "type": "Lernplattform",
+    "topic": "Jugend & Soziales",
+    "description": "Freie digitale Lernmaterialien",
+    "source": "https://de.serlo.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-087",
+    "name": "Afeefa Regionalportale",
+    "status": "OFFEN",
+    "type": "Plattform/Projekt",
+    "topic": "Jugend & Soziales",
+    "description": "Digitale Übersichten sozialer Angebote",
+    "source": "",
+    "open": "Aktive Portale und Datenaktualität prüfen"
+  },
+  {
+    "id": "A2030-088",
+    "name": "Off Road Kids",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Jugend & Soziales",
+    "description": "Hilfe für Straßenkinder und junge Wohnungslose",
+    "source": "https://offroadkids.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-089",
+    "name": "Jura-Paten an Schulen",
+    "status": "OFFEN",
+    "type": "Projektart/Name zu prüfen",
+    "topic": "Jugend & Soziales",
+    "description": "Angebliche ehrenamtliche Demokratie- und Rechtsbildung",
+    "source": "",
+    "open": "Konkrete Programme finden"
+  },
+  {
+    "id": "A2030-090",
+    "name": "MENTOR – Die Leselernhelfer",
+    "status": "BELEGT",
+    "type": "Netzwerk",
+    "topic": "Jugend & Soziales",
+    "description": "Ehrenamtliche Leseförderung",
+    "source": "https://www.mentor-bundesverband.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-091",
+    "name": "Schule ohne Rassismus – Schule mit Courage",
+    "status": "BELEGT",
+    "type": "Netzwerk",
+    "topic": "Jugend & Soziales",
+    "description": "Schulnetzwerk gegen Diskriminierung",
+    "source": "https://www.schule-ohne-rassismus.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-092",
+    "name": "Kicking Girls",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Programm/Projekt",
+    "topic": "Jugend & Soziales",
+    "description": "Fußballangebote für Mädchen und soziale Teilhabe",
+    "source": "",
+    "open": "Aktuelle Träger und Standorte prüfen"
+  },
+  {
+    "id": "A2030-093",
+    "name": "Digital-Kompass",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Netzwerk/Projekt",
+    "topic": "Jugend & Soziales",
+    "description": "Unterstützt digitale Teilhabe",
+    "source": "https://www.digital-kompass.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-094",
+    "name": "Mitwirken – Hertie-Stiftung",
+    "status": "OFFEN",
+    "type": "Programm/Name zu prüfen",
+    "topic": "Jugend & Soziales",
+    "description": "Angebliche Demokratieprojekte für Jugendliche",
+    "source": "",
+    "open": "Aktuellen Programmnamen prüfen"
+  },
+  {
+    "id": "A2030-095",
+    "name": "Junge Helden e.V.",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Jugend & Soziales",
+    "description": "Aufklärung über Organspende",
+    "source": "https://junge-helden.eu/",
+    "open": ""
+  },
+  {
+    "id": "A2030-096",
+    "name": "querstadtein e.V.",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Jugend & Soziales",
+    "description": "Stadtführungen mit Perspektiven von Menschen mit Ausgrenzungserfahrung",
+    "source": "https://querstadtein.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-097",
+    "name": "Huckepack e.V.",
+    "status": "OFFEN",
+    "type": "Name nicht eindeutig",
+    "topic": "Jugend & Soziales",
+    "description": "Angebliche Kinderpatenschaften/Schulbegleitung",
+    "source": "",
+    "open": "Ort, Verein und Angebot prüfen"
+  },
+  {
+    "id": "A2030-098",
+    "name": "JOBLINGE",
+    "status": "BELEGT",
+    "type": "Organisation/Netzwerk",
+    "topic": "Jugend & Soziales",
+    "description": "Unterstützung beim Einstieg in Ausbildung und Beruf",
+    "source": "https://www.joblinge.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-099",
+    "name": "Tausche Bildung für Wohnen",
+    "status": "BELEGT",
+    "type": "Organisation/Projekt",
+    "topic": "Jugend & Soziales",
+    "description": "Bildungsengagement und gemeinschaftliche Wohnmodelle",
+    "source": "https://tauschebildung.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-100",
+    "name": "Kulturkosmos e.V.",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Organisation/Name zu prüfen",
+    "topic": "Jugend & Soziales",
+    "description": "Angeblicher selbstverwalteter Jugend- und Kulturraum",
+    "source": "",
+    "open": "Ort und Träger verifizieren"
+  },
+  {
+    "id": "A2030-101",
+    "name": "Streetwork-Busse / mobile Anlaufstellen",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Jugend & Soziales",
+    "description": "Mobile Unterstützung für Menschen in prekären Lebenslagen",
+    "source": "",
+    "open": "Konkrete Träger und Einsatzorte erfassen"
+  },
+  {
+    "id": "A2030-102",
+    "name": "Tafel Deutschland und lokale Tafeln",
+    "status": "BELEGT",
+    "type": "Dachverband/lokale Angebote",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Lebensmittel retten und Menschen in Armut unterstützen",
+    "source": "https://www.tafel.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-103",
+    "name": "Tafel Jugend",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Netzwerk",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Junge Ehrenamtliche im Tafel-Umfeld",
+    "source": "",
+    "open": "Aktuelle offizielle Informationen prüfen"
+  },
+  {
+    "id": "A2030-104",
+    "name": "Lesestart 1–2–3",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Bildungsprogramm",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Frühkindliche Leseförderung",
+    "source": "",
+    "open": "Aktuellen Programmstatus prüfen"
+  },
+  {
+    "id": "A2030-105",
+    "name": "Social B&B",
+    "status": "OFFEN",
+    "type": "Projektname zu klären",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Angebliche Wohnhilfe für junge Menschen; nicht mit Social-Bee verwechseln",
+    "source": "",
+    "open": "Träger und genaue Bezeichnung prüfen"
+  },
+  {
+    "id": "A2030-106",
+    "name": "NachbarBude",
+    "status": "OFFEN",
+    "type": "Lokales Projekt/Name zu prüfen",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Lokales Vernetzungsprojekt gegen Einsamkeit laut Quelle der Stadt Dortmund",
+    "source": "",
+    "open": "Stadt/Träger und Aktivität prüfen"
+  },
+  {
+    "id": "A2030-107",
+    "name": "Social Open Source",
+    "status": "OFFEN",
+    "type": "Projektname zu prüfen",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Idee zu selbstorganisierten digitalen Angeboten gegen Einsamkeit",
+    "source": "",
+    "open": "Aktuellen Träger prüfen"
+  },
+  {
+    "id": "A2030-108",
+    "name": "Gemeinsam Wohnen am Kuhberg, Ulm",
+    "status": "BELEGT",
+    "type": "Konkretes Wohnprojekt",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Mehrgenerationen-Wohnprojekt mit Gemeinschaftsraum",
+    "source": "https://www.agw-ulm.de/projekt/",
+    "open": ""
+  },
+  {
+    "id": "A2030-109",
+    "name": "Weinberg Carré, Ulm",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Quartiers-/Wohnprojekt",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Wohnungsbauprojekt mit gefördertem Wohnraum",
+    "source": "https://www.ulm.de/aktuelle-meldungen/z%C3%B6a/november-2019/weinbergcarre",
+    "open": ""
+  },
+  {
+    "id": "A2030-110",
+    "name": "Gemeinsam wohnen am Weinberg, Ulm",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Konkretes Wohnprojekt",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Barrierefreie, teils geförderte und betreute Wohnungen",
+    "source": "https://www.gs-architektur.de/projekte/gemeinsam-wohnen-am-weinberg-ulm/",
+    "open": ""
+  },
+  {
+    "id": "A2030-111",
+    "name": "Karriere Buddy – Über den Tellerrand",
+    "status": "BELEGT",
+    "type": "Teilprojekt",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Mentoring für Bewerbungsprozess und Arbeitsmarktorientierung",
+    "source": "https://ueberdentellerrand.org/projekte/",
+    "open": ""
+  },
+  {
+    "id": "A2030-112",
+    "name": "Community Connect – Über den Tellerrand",
+    "status": "BELEGT",
+    "type": "Teilprojekt",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Begegnungsformate mit migrantischen Communities",
+    "source": "https://ueberdentellerrand.org/projekte/",
+    "open": ""
+  },
+  {
+    "id": "A2030-113",
+    "name": "BEGIN – berufliche Integration",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Kooperationsprojekt",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Netzwerkunterstützung bei Bewerbung und Arbeitssuche",
+    "source": "",
+    "open": "Aktuelle Laufzeit und Träger prüfen"
+  },
+  {
+    "id": "A2030-114",
+    "name": "Freiwilligenagenturen",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart/Netzwerk",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Vermittlung in passende ehrenamtliche Tätigkeiten",
+    "source": "",
+    "open": "Kommunale Stellen und Suchportale ergänzen"
+  },
+  {
+    "id": "A2030-115",
+    "name": "Besuchs- und Telefonpatenschaften",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Gegen Einsamkeit und soziale Isolation",
+    "source": "",
+    "open": "Aktive lokale Träger erfassen"
+  },
+  {
+    "id": "A2030-116",
+    "name": "Wunschgroßeltern / Leihoma-Leihopa",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Generationenübergreifende Unterstützung von Familien",
+    "source": "",
+    "open": "Schutzkonzepte und Träger prüfen"
+  },
+  {
+    "id": "A2030-117",
+    "name": "Inklusive Freizeit- und Begleitdienste",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Teilhabe für Menschen mit Behinderung",
+    "source": "",
+    "open": "Lokale Anbieter und Barrierefreiheit prüfen"
+  },
+  {
+    "id": "A2030-118",
+    "name": "Ernährungsräte",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Netzwerk/Projektart",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Vernetzen Landwirtschaft, Zivilgesellschaft und Kommunen",
+    "source": "",
+    "open": "Aktive Ernährungsräte recherchieren"
+  },
+  {
+    "id": "A2030-119",
+    "name": "Kommunale Klimafonds und Begrünungsfonds",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Förderung von Entsiegelung, Begrünung, Energie- und Nachbarschaftsideen",
+    "source": "",
+    "open": "Konkrete Förderprogramme und Fristen prüfen"
+  },
+  {
+    "id": "A2030-120",
+    "name": "Gemeinschaftliche Werkzeugbibliotheken",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Teilen selten genutzter Werkzeuge",
+    "source": "",
+    "open": "Leihläden und Nutzungsregeln ergänzen"
+  },
+  {
+    "id": "A2030-121",
+    "name": "Kommunale Bürgerhaushalte",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Projektart",
+    "topic": "Zusätzliche Ergänzungen",
+    "description": "Einwohner priorisieren Vorschläge zur Mittelverwendung",
+    "source": "",
+    "open": "Kommunale Verfahren und Budgets prüfen"
+  },
+  {
+    "id": "A2030-123",
+    "name": "Mietshäuser Syndikat",
+    "status": "BELEGT",
+    "type": "Netzwerk",
+    "topic": "Wohnen",
+    "description": "Selbstorganisierte Hausprojekte und gemeinschaftlich gebundener Wohnraum",
+    "source": "https://www.syndikat.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-125",
+    "name": "ulmer heimstätte eG",
+    "status": "TEILWEISE GEPRÜFT",
+    "type": "Wohnungsgenossenschaft",
+    "topic": "Wohnen",
+    "description": "Wohnungsbau und konkrete Quartiersprojekte",
+    "source": "https://www.ulmer-heimstaette.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-126",
+    "name": "MünchenBudget 2026",
+    "status": "BELEGT",
+    "type": "Kommunales Verfahren",
+    "topic": "Bürgerbeteiligung",
+    "description": "Bürgerideen und kommunale Mitgestaltung",
+    "source": "https://unser.muenchen.de/muenchenbudget2026",
+    "open": ""
+  },
+  {
+    "id": "A2030-127",
+    "name": "Serlo",
+    "status": "BELEGT",
+    "type": "Lernplattform",
+    "topic": "Jugend & Bildung",
+    "description": "Kostenfreie digitale Lernmaterialien",
+    "source": "https://de.serlo.org/",
+    "open": ""
+  },
+  {
+    "id": "A2030-128",
+    "name": "JOBLINGE",
+    "status": "BELEGT",
+    "type": "Organisation",
+    "topic": "Jugend & Bildung",
+    "description": "Berufseinstieg junger Menschen",
+    "source": "https://www.joblinge.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-129",
+    "name": "Tausche Bildung für Wohnen",
+    "status": "BELEGT",
+    "type": "Organisation/Projekt",
+    "topic": "Jugend & Bildung",
+    "description": "Bildungsunterstützung und Wohnen verbinden",
+    "source": "https://tauschebildung.de/",
+    "open": ""
+  },
+  {
+    "id": "A2030-130",
+    "name": "Jugend hackt",
+    "status": "BELEGT",
+    "type": "Programm",
+    "topic": "Jugend & Bildung",
+    "description": "Digitale Projekte für Jugendliche",
+    "source": "https://jugendhackt.org/",
+    "open": ""
+  }
+]
