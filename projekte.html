@@ -1,8 +1,95 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Agenda 2030 – Gemeinsam Zukunft gestalten."><title>Projekte entdecken | Agenda 2030</title><link rel="stylesheet" href="style.css"></head><body>
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Das Agenda-2030-Projektregister: gute Initiativen entdecken, nach Themen suchen und Möglichkeiten zum Mitmachen finden.">
+<title>Projekte entdecken | Agenda 2030</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* Projektregister – Version 0.8: übersichtliche, responsive Kartenansicht */
+.project-intro{padding:34px 0 24px;border-bottom:var(--rule)}
+.project-intro .eyebrow{display:inline-block;background:var(--yellow);padding:5px 9px;border:2px solid var(--ink)}
+.project-intro h1{max-width:850px;margin:16px 0;font-size:clamp(2.5rem,5vw,4.5rem)}
+.project-intro .lead{max-width:760px}
+.project-actions{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 4px}
+.project-toolbar{padding:22px 0;border-bottom:2px solid var(--ink);display:grid;grid-template-columns:minmax(0,1fr) minmax(180px,.45fr);gap:12px}
+.project-toolbar input,.project-toolbar select{width:100%;min-height:48px;border:2px solid var(--ink);border-radius:0;padding:10px 12px;font:inherit;background:#fff;color:var(--ink)}
+.project-toolbar input:focus,.project-toolbar select:focus{outline:3px solid var(--yellow);outline-offset:2px}
+.project-meta{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:15px 0;color:#444;font-size:.92rem}
+.topic-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:12px 0 24px}
+.topic-button{display:block;text-align:left;min-height:126px;border:2px solid var(--ink);padding:16px;background:#fff;font:inherit;cursor:pointer;box-shadow:4px 4px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+.topic-button:hover,.topic-button:focus-visible{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink);outline:0}
+.topic-button[aria-pressed="true"]{background:var(--yellow)}
+.topic-icon{display:block;font-size:1.45rem;font-weight:900;margin-bottom:7px}
+.topic-name{display:block;font-weight:900;font-size:1rem}
+.topic-desc{display:block;color:#444;font-size:.84rem;line-height:1.4;margin-top:4px}
+.project-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;padding:8px 0 36px}
+.project-card{border:2px solid var(--ink);padding:18px;min-width:0;display:flex;flex-direction:column;background:#fff;box-shadow:4px 4px 0 #dedede}
+.project-card h3{font-size:1.2rem;line-height:1.25;margin:10px 0}
+.project-id{font-size:.76rem;letter-spacing:.06em;font-weight:800;color:#555}
+.project-description{margin:0 0 14px;color:#333}
+.project-tags{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 12px}
+.project-tag{display:inline-block;padding:4px 8px;font-size:.76rem;font-weight:800;border:1px solid var(--ink);background:#f4f4f4}
+.status{border:0}.status.belegt{background:#dcefe4}.status.teilweise{background:#fff0bd}.status.offen{background:#f8dede}
+.project-card .project-link{font-weight:800;margin-top:auto;padding-top:8px;overflow-wrap:anywhere}
+.project-empty,.project-error{border:2px dashed #777;padding:24px;margin:12px 0 32px}
+.project-loading{padding:24px 0;color:#444}
+.register-note{border-left:8px solid var(--blue);background:#f2f6fb;padding:16px 18px;margin:6px 0 28px}
+.register-note p{margin:4px 0}
+@media(max-width:850px){.topic-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.project-results{grid-template-columns:1fr}}
+@media(max-width:560px){.project-toolbar{grid-template-columns:1fr}.topic-grid{grid-template-columns:1fr}.topic-button{min-height:auto}.project-intro{padding-top:24px}}
+</style>
+</head>
+<body>
 <header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span><span class="brand-name">AGENDA 2030<small>Gemeinsam Zukunft gestalten</small></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="side-menu" onclick="const m=document.getElementById('side-menu');const o=this.getAttribute('aria-expanded')==='true';this.setAttribute('aria-expanded',String(!o));m.classList.toggle('open',!o);this.textContent=o?'☰ Menü':'✕ Schließen';">☰ Menü</button></div></header>
-<div class="layout"><main><div class="pagehead"><span class="swatch blue"></span><h1>Projekte entdecken</h1><p class="lead">Eine wachsende Sammlung positiver Beispiele, Initiativen und Ideen.</p></div><div class="content"><p>Das vollständige Register wird derzeit aufgebaut. Einträge können unterschiedliche Prüfstände haben.</p><p><a class="button primary" href="PROJEKTREGISTER.md">Projektregister öffnen →</a></p><h2 id="menschen">Menschen helfen &amp; Nachbarschaft</h2><p>Unterstützung im Alltag, Hilfe gegen Einsamkeit und generationenübergreifende Angebote.</p><h2 id="klima">Klima &amp; Umwelt</h2><p>Repair Cafés, Foodsharing, Bürgerenergie, gemeinschaftliches Gärtnern und Naturschutzprojekte.</p><h2 id="gemeinwohl">Gemeinwohl &amp; alternative Wirtschaft</h2><p>Genossenschaften, gemeinschaftliches Wohnen, regionale Versorgung und soziale Unternehmen.</p><h2 id="vielfalt">Flucht, Integration &amp; Vielfalt</h2><p>Begegnung, Mentoring, Sprachcafés, Sport und Angebote für gleichberechtigte Teilhabe.</p><h2 id="bildung">Jugend, Bildung &amp; soziales Engagement</h2><p>Leseförderung, digitale Bildung, Mentoring, Jugendprojekte und Straßensozialarbeit.</p><div class="notice">Eine interaktive Karte und gezielte Suche können ergänzt werden, sobald Ortsangaben und Quellen ausreichend geprüft sind.</div></div></main><aside class="side-nav"><p class="nav-label">Navigation</p><nav id="side-menu" aria-label="Hauptnavigation"><a href="index.html">Startseite</a>
-<a href="agenda.html">Unsere Agenda</a>
-<a href="projekte.html" aria-current="page">Projekte</a>
-<a href="mitmachen.html">Mitmachen</a><a href="karte.html">Deutschlandkarte</a>
-<a href="grundsaetze.html">Grundsätze</a></nav><div class="side-note"><strong>Gemeinsam Zukunft gestalten.</strong><br>Gute Ideen finden. Menschen verbinden. Aktiv werden.</div></aside></div>
-<footer class="site-footer"><div class="footer-inner"><div><a class="brand" href="index.html"><span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span><span class="brand-name">AGENDA 2030<small>Gemeinsam Zukunft gestalten</small></span></a><div class="footer-links"><a href="agenda.html">Über uns</a><a href="mitmachen.html">Mitmachen</a><a href="karte.html">Deutschlandkarte</a><a href="grundsaetze.html">Grundsätze</a></div></div></div><div class="bottom-grid"></div></footer></body></html>
+<div class="layout"><aside class="side-nav"><p class="nav-label">Navigation</p><nav id="side-menu" aria-label="Hauptnavigation"><a href="index.html">Startseite</a><a href="agenda.html">Unsere Agenda</a><a href="projekte.html" aria-current="page">Projekte</a><a href="karte.html">Deutschlandkarte</a><a href="mitmachen.html">Mitmachen</a><a href="grundsaetze.html">Grundsätze</a></nav></aside>
+<main>
+<section class="project-intro"><span class="eyebrow">Das Projektregister · Version 0.8</span><h1>Gute Ideen.<br>Konkrete Projekte.</h1><p class="lead">Überall engagieren sich Menschen für Zusammenhalt, eine lebenswerte Umwelt und faire Chancen. Entdecke ihre Initiativen, filtere nach Themen und finde heraus, worum es geht.</p><div class="project-actions"><a class="button primary" href="karte.html">Projekte auf der Deutschlandkarte →</a><a class="button" href="PROJEKTREGISTER.md">Vollständiges Register als Text</a></div></section>
+<section aria-labelledby="themen-title"><h2 id="themen-title">Was interessiert dich?</h2><p>Wähle einen Themenbereich oder suche direkt nach einem Projektnamen oder Stichwort.</p><div class="topic-grid" id="topic-grid">
+<button class="topic-button" data-topic="Menschen helfen" aria-pressed="false"><span class="topic-icon">01 / ♥</span><span class="topic-name">Menschen helfen & Nachbarschaft</span><span class="topic-desc">Alltagshilfe, Begegnung und Zusammenhalt</span></button>
+<button class="topic-button" data-topic="Klima & Umwelt" aria-pressed="false"><span class="topic-icon">02 / ◉</span><span class="topic-name">Klima & Umwelt</span><span class="topic-desc">Natur schützen, reparieren und Ressourcen sparen</span></button>
+<button class="topic-button" data-topic="Alternative Ökonomie" aria-pressed="false"><span class="topic-icon">03 / ↗</span><span class="topic-name">Gemeinwohl & Wirtschaft</span><span class="topic-desc">Genossenschaften, Wohnen und regionale Versorgung</span></button>
+<button class="topic-button" data-topic="Integration" aria-pressed="false"><span class="topic-icon">04 / ◎</span><span class="topic-name">Vielfalt & Teilhabe</span><span class="topic-desc">Begegnung, Integration und gleiche Chancen</span></button>
+<button class="topic-button" data-topic="Bildung" aria-pressed="false"><span class="topic-icon">05 / +</span><span class="topic-name">Jugend & Bildung</span><span class="topic-desc">Lernen, Mentoring und Engagement</span></button>
+<button class="topic-button" data-topic="Wohnen" aria-pressed="false"><span class="topic-icon">06 / ⌂</span><span class="topic-name">Wohnen & Gemeinschaft</span><span class="topic-desc">Gemeinschaftliches und bezahlbares Wohnen</span></button>
+</div></section>
+<section aria-label="Projektliste"><div class="project-toolbar"><input id="project-search" type="search" placeholder="Projekt, Thema oder Stichwort suchen …" aria-label="Projektregister durchsuchen"><select id="status-filter" aria-label="Nach Prüfstatus filtern"><option value="alle">Alle Prüfstände</option><option value="BELEGT">Belegt</option><option value="TEILWEISE GEPRÜFT">Teilweise geprüft</option><option value="OFFEN">Noch offen</option></select></div><div class="project-meta"><strong id="result-count">Projektregister wird geladen …</strong><button id="clear-filters" class="button" type="button">Filter zurücksetzen</button></div><div class="register-note"><p><strong>Transparenz ist uns wichtig.</strong></p><p>Der Prüfstatus zeigt, wie gut Angaben und Quellen bereits nachvollzogen sind. „Offen“ bedeutet nicht automatisch falsch – sondern, dass weitere Prüfung nötig ist. Eine Karte zeigt nur Projekte mit belastbarer geografischer Zuordnung.</p></div><div id="project-results" class="project-results" aria-live="polite"><p class="project-loading">Die Projekte werden aus dem vollständigen Register geladen …</p></div><div id="project-error" class="project-error" hidden>Das Register konnte nicht automatisch geladen werden. Du kannst es direkt öffnen: <a href="PROJEKTREGISTER.md">PROJEKTREGISTER.md</a>.</div></section>
+</main></div>
+<footer class="site-footer"><div class="footer-inner"><div><a class="brand" href="index.html"><span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span><span class="brand-name">AGENDA 2030<small>Gemeinsam Zukunft gestalten</small></span></a><div class="footer-links"><a href="agenda.html">Über uns</a><a href="karte.html">Deutschlandkarte</a><a href="mitmachen.html">Mitmachen</a><a href="grundsaetze.html">Grundsätze</a></div></div></div></footer>
+<script>
+(function(){
+ const search=document.getElementById('project-search'), statusFilter=document.getElementById('status-filter'), results=document.getElementById('project-results'), count=document.getElementById('result-count'), error=document.getElementById('project-error');
+ let projects=[], activeTopic='';
+ const esc=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ function parseRegister(md){
+  const lines=md.replace(/\r/g,'').split('\n'); let topic='Weitere Themen', current=null, out=[];
+  function save(){if(current){current.topic=current.topic||topic;current.searchText=[current.id,current.name,current.description,current.type,current.topic,current.status,current.source,current.open].join(' ').toLocaleLowerCase('de');out.push(current);current=null;}}
+  for(const line of lines){
+   const sec=line.match(/^#{2}\s+\d+\.\s+(.+)$/); if(sec){save();topic=sec[1].trim();continue;}
+   const h=line.match(/^###\s+\*{0,2}(A2030-\d+)\s*[·|–-]\s*(.+?)\*{0,2}\s*$/); if(h){save();current={id:h[1],name:h[2].trim(),topic,status:'OFFEN',type:'',description:'',source:'',open:''};continue;}
+   if(!current)continue;
+   let m;
+   if((m=line.match(/^\*\*Prüfstatus:\*\*\s*(.+)/i)) || (m=line.match(/^\*\*Status:\*\*\s*(.+)/i))) current.status=m[1].trim().replace(/\s+$/,'');
+   else if((m=line.match(/^\*\*Art:\*\*\s*(.+)/i)) || (m=line.match(/^\*\*Typ:\*\*\s*(.+)/i)))current.type=m[1].trim();
+   else if((m=line.match(/^\*\*Themenbereich:\*\*\s*(.+)/i)))current.topic=m[1].trim();
+   else if((m=line.match(/^\*\*Worum geht es\??\*\*\s*$/i))){current.readDescription=true;}
+   else if((m=line.match(/^\*\*Quelle:\*\*\s*<?(https?:\/\/[^>\s]+)>?/i)) || (m=line.match(/^\[Quelle\]\((https?:\/\/[^)]+)\)/i)))current.source=m[1];
+   else if((m=line.match(/^\*\*Noch zu klären:\*\*\s*(.+)/i)))current.open=m[1].trim();
+   else if(current.readDescription && line.trim() && !line.trim().startsWith('**') && !line.trim().startsWith('<hr')){current.description=(current.description+' '+line.trim()).trim();current.readDescription=false;}
+  }
+  save();return out;
+ }
+ function statusClass(s){s=s.toUpperCase();return s==='BELEGT'?'belegt':s.includes('TEILWEISE')?'teilweise':'offen';}
+ function topicMatch(p){if(!activeTopic)return true;const t=(p.topic+' '+p.name+' '+p.description).toLocaleLowerCase('de');if(activeTopic==='Wohnen')return /wohn|wohnen|dorfladen|mietshäuser|tiny.house|mehrgenerationenhaus/i.test(t);if(activeTopic==='Bildung')return /bildung|jugend|schule|lernen|mentoring|leseförder|chancenwerk/i.test(t);return t.includes(activeTopic.toLocaleLowerCase('de')) || (activeTopic==='Menschen helfen' && /nachbarschaft|hilfe|einsamkeit|pflege|kinder|familien/i.test(t)) || (activeTopic==='Integration' && /vielfalt|flucht|geflücht|sprache|begegnung|teilhabe/i.test(t));}
+ function render(){const q=search.value.trim().toLocaleLowerCase('de'), st=statusFilter.value;const filtered=projects.filter(p=>(!q||p.searchText.includes(q))&&(st==='alle'||p.status.toUpperCase()===st)&&topicMatch(p));count.textContent=filtered.length+' von '+projects.length+' Einträgen';
+  if(!filtered.length){results.innerHTML='<div class="project-empty">Keine passenden Projekte gefunden. Ändere den Suchbegriff oder setze die Filter zurück.</div>';return;}
+  results.innerHTML=filtered.map(p=>'<article class="project-card"><span class="project-id">'+esc(p.id)+'</span><h3>'+esc(p.name)+'</h3><div class="project-tags"><span class="project-tag">'+esc(p.topic)+'</span><span class="project-tag status '+statusClass(p.status)+'">'+esc(p.status)+'</span></div><p class="project-description">'+esc(p.description||'Für diesen Eintrag liegt noch keine Kurzbeschreibung in der strukturierten Form vor.')+'</p>'+(p.open?'<p><strong>Noch zu klären:</strong> '+esc(p.open)+'</p>':'')+(p.source?'<a class="project-link" href="'+esc(p.source)+'" target="_blank" rel="noopener noreferrer">Offizielle Quelle ansehen ↗</a>':'')+'</article>').join('');
+ }
+ search.addEventListener('input',render);statusFilter.addEventListener('change',render);
+ document.querySelectorAll('.topic-button').forEach(b=>b.addEventListener('click',()=>{activeTopic=activeTopic===b.dataset.topic?'':b.dataset.topic;document.querySelectorAll('.topic-button').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.topic===activeTopic)));render();document.getElementById('project-search').focus({preventScroll:true});}));
+ document.getElementById('clear-filters').addEventListener('click',()=>{search.value='';statusFilter.value='alle';activeTopic='';document.querySelectorAll('.topic-button').forEach(x=>x.setAttribute('aria-pressed','false'));render();});
+ fetch('PROJEKTREGISTER.md',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('Register konnte nicht geladen werden');return r.text();}).then(md=>{projects=parseRegister(md);if(!projects.length)throw new Error('Keine strukturierten Projekte gefunden');render();}).catch(()=>{results.innerHTML='';error.hidden=false;count.textContent='Register nicht geladen';});
+})();
+</script>
+</body></html>
