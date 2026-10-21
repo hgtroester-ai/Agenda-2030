@@ -14,10 +14,11 @@
 <section class="pagehead"><p class="eyebrow">Projekte in Deutschland</p><h1>Deutschlandkarte</h1><p class="lead">Gute Ideen sichtbar machen – Orte entdecken, Projekte kennenlernen und Möglichkeiten zum Mitmachen finden.</p></section>
 <section class="content map-intro">
 <p>Auf dieser Karte erscheinen ausschließlich Projekte, deren Angaben und Standort geprüft wurden. Neue Einträge werden schrittweise ergänzt.</p>
-<div class="map-status" id="map-status" role="status">Die Karte wird geladen. Die geprüften Standorte werden hier angezeigt, sobald sie ergänzt wurden.</div>
+<div class="map-status" id="map-status" role="status">Projektregister wird geladen …</div>
 <div class="map-controls"><label for="category-filter">Themenbereich</label><select id="category-filter"><option value="all">Alle Themenbereiche</option></select><label for="project-search">Projekt suchen</label><input id="project-search" type="search" placeholder="Name oder Ort eingeben"></div>
 <div class="map-shell"><div id="project-map" aria-label="Interaktive Karte von Deutschland mit geprüften Projekten"></div></div>
-<div class="map-legend"><span><i class="map-dot"></i> Geprüftes Projekt</span></div>
+<div class="map-legend"><span><i class="map-dot"></i> Belegtes Projekt mit Stadtzuordnung</span></div>
+<h2>Projekte im Register</h2><p class="small">Die Suche und Themenfilter durchsuchen das Projektregister. Ein Kartenpunkt erscheint nur, wenn das Register eine belegte Stadtzuordnung hergibt. Stadtpunkte sind keine exakten Projektadressen.</p><div id="project-results" class="project-results" aria-live="polite"></div>
 <p><small>Kartengrundlage: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap-Mitwirkende</a>. Die Karte nutzt Leaflet, eine quelloffene JavaScript-Kartenbibliothek.</small></p>
 <p>Fehlende oder noch nicht geprüfte Standorte werden nicht als Kartenpunkte dargestellt. Die Projektliste bleibt davon unabhängig bestehen.</p>
 </section></main>
@@ -32,35 +33,36 @@
   const category=document.getElementById('category-filter');
   const search=document.getElementById('project-search');
   const status=document.getElementById('map-status');
+  const results=document.getElementById('project-results');
   let features=[];
   function safeText(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
   function render(){
     layer.clearLayers();
     const cat=category.value, q=search.value.trim().toLocaleLowerCase('de');
-    let shown=0;
-    features.forEach(f=>{
-      const p=f.properties||{}; const coords=f.geometry&&f.geometry.coordinates;
-      if(!coords||coords.length<2||!Number.isFinite(coords[0])||!Number.isFinite(coords[1]))return;
-      if(p.status!=='BELEGT')return;
-      if(cat!=='all'&&p.category!==cat)return;
-      const hay=[p.name,p.city,p.category,p.description].join(' ').toLocaleLowerCase('de');
-      if(q&&!hay.includes(q))return;
-      const marker=L.circleMarker([coords[1],coords[0]],{radius:8,color:'#111',weight:2,fillColor:'#e5232e',fillOpacity:0.95}).addTo(layer);
+    const matched=features.filter(f=>{const p=f.properties||{};const hay=[p.id,p.name,p.city,p.category,p.description,p.status,p.type].join(' ').toLocaleLowerCase('de');return (cat==='all'||p.category===cat)&&(!q||hay.includes(q));});
+    let pins=0;
+    matched.forEach(f=>{const p=f.properties||{}, c=f.geometry&&f.geometry.coordinates;
+      if(p.status!=='BELEGT'||!p.map_pin||!c||c.length<2)return;
+      const marker=L.circleMarker([c[1],c[0]],{radius:8,color:'#111',weight:2,fillColor:'#e5232e',fillOpacity:.95}).addTo(layer);
       let popup='<div class="map-popup"><h3>'+safeText(p.name)+'</h3>';
-      if(p.city)popup+='<p><strong>Ort:</strong> '+safeText(p.city)+'</p>';
+      if(p.city)popup+='<p><strong>Stadt:</strong> '+safeText(p.city)+'</p>';
       if(p.category)popup+='<p><strong>Thema:</strong> '+safeText(p.category)+'</p>';
       if(p.description)popup+='<p>'+safeText(p.description)+'</p>';
-      if(p.url&&/^https?:\/\//i.test(p.url))popup+='<p><a href="'+safeText(p.url)+'" target="_blank" rel="noopener noreferrer">Offizielle Projektseite öffnen ↗</a></p>';
-      popup+='</div>'; marker.bindPopup(popup); shown++;
+      popup+='<p><small>'+safeText(p.location_note||'Stadtzuordnung, keine exakte Adresse')+'</small></p>';
+      if(p.url&&/^https?:\/\//i.test(p.url))popup+='<p><a href="'+safeText(p.url)+'" target="_blank" rel="noopener noreferrer">Quelle / Projektseite öffnen ↗</a></p>';
+      popup+='</div>';marker.bindPopup(popup);pins++;
     });
-    status.textContent=shown===0?'Aktuell sind noch keine geprüften Standorte in der Karte eingetragen. Die Karte ist vorbereitet; bestätigte Projekte werden nach und nach ergänzt.':'Angezeigt: '+shown+' geprüfte '+(shown===1?'Projektstandort.':'Projektstandorte.');
+    status.textContent='Suchergebnisse: '+matched.length+' von '+features.length+' Registereinträgen; davon '+pins+' belegte Stadtzuordnungen auf der Karte.';
+    if(!matched.length){results.innerHTML='<p class="notice">Keine Projekte gefunden. Bitte Suchbegriff oder Themenbereich ändern.</p>';return;}
+    results.innerHTML=matched.map(f=>{const p=f.properties||{};let s='<article class="project-result"><div class="result-top"><span class="result-id">'+safeText(p.id)+'</span><span class="result-status">'+safeText(p.status||'Status offen')+'</span></div><h3>'+safeText(p.name)+'</h3><p class="result-category">'+safeText(p.category||'Themenbereich offen')+'</p>'+(p.description?'<p>'+safeText(p.description)+'</p>':'')+(p.city?'<p><strong>Stadtzuordnung:</strong> '+safeText(p.city)+' — '+safeText(p.location_note||'Stadtgebiet')+'</p>':'<p class="small">Noch kein eindeutig bestätigter einzelner Kartenstandort im Register.</p>')+(p.url&&/^https?:\/\//i.test(p.url)?'<p><a href="'+safeText(p.url)+'" target="_blank" rel="noopener noreferrer">Projektquelle öffnen ↗</a></p>':'')+'</article>';}).join('');
   }
-  category.addEventListener('change',render); search.addEventListener('input',render);
-  fetch('projekte.geojson').then(r=>{if(!r.ok)throw new Error('GeoJSON nicht verfügbar');return r.json();}).then(data=>{
-    features=(data.features||[]).filter(f=>f&&f.properties&&f.properties.status==='BELEGT');
+  category.addEventListener('change',render);search.addEventListener('input',render);
+  fetch('projekte.geojson').then(r=>{if(!r.ok)throw new Error('Projektdaten nicht verfügbar');return r.json();}).then(data=>{
+    features=(data.features||[]).filter(f=>f&&f.properties);
     const categories=[...new Set(features.map(f=>f.properties.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'de'));
-    categories.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;category.appendChild(o);});render();
-  }).catch(()=>{status.textContent='Die Projektdaten konnten gerade nicht geladen werden. Bitte später erneut versuchen.';});
+    categories.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;category.appendChild(o);});
+    render();
+  }).catch(()=>{status.textContent='Die Projektdaten konnten nicht geladen werden. Bitte prüfen, ob projekte.geojson im selben GitHub-Ordner wie karte.html liegt.';results.innerHTML='<p class="notice">Projektliste nicht geladen.</p>';});
 })();
 </script>
 </body></html>

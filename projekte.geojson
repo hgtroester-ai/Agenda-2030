@@ -1,4 +1,2109 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4653,
+          51.5136
+        ]
+      },
+      "properties": {
+        "id": "A2030-001",
+        "name": "Mütterzentrum Dortmund – Eulen & Lerchen",
+        "status": "BELEGT",
+        "category": "Menschen helfen",
+        "type": "Lokales Projekt",
+        "description": "Randzeitenbetreuung für Kinder von Eltern im Schichtdienst",
+        "url": "https://muetterzentrum-dortmund.de/projekt-randzeiten/",
+        "city": "Dortmund",
+        "location_note": "Stadtgebiet; kein exakter Projektstandort im Register",
+        "map_pin": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-002",
+        "name": "Silbernetz e.V.",
+        "status": "BELEGT",
+        "category": "Menschen helfen",
+        "type": "Organisation",
+        "description": "Telefonkontakte und Unterstützung gegen Einsamkeit im Alter",
+        "url": "https://silbernetz.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-003",
+        "name": "OmaGehtOnline",
+        "status": "OFFEN",
+        "category": "Menschen helfen",
+        "type": "Projekt/Name zu prüfen",
+        "description": "Jugendliche unterstützen ältere Menschen bei Smartphone und digitalen Diensten",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-004",
+        "name": "Taschengeldbörsen",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Projektart",
+        "description": "Vermittlung kleiner Hilfen zwischen Jugendlichen und Menschen mit Unterstützungsbedarf",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-005",
+        "name": "nebenan.de Stiftung",
+        "status": "BELEGT",
+        "category": "Menschen helfen",
+        "type": "Organisation",
+        "description": "Fördert Nachbarschaftsengagement, Klimaschutzideen und Begegnung",
+        "url": "https://www.nebenan-stiftung.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-006",
+        "name": "Kältebusse / Kältehilfe",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Projektart",
+        "description": "Lokale Hilfe für Menschen ohne sicheren Schlafplatz",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-007",
+        "name": "ASB-Wünschewagen",
+        "status": "BELEGT",
+        "category": "Menschen helfen",
+        "type": "Organisation/Projekt",
+        "description": "Ermöglicht schwerstkranken Menschen Wunschfahrten",
+        "url": "https://www.wuenschewagen.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-008",
+        "name": "Helfende Hände e.V.",
+        "status": "OFFEN",
+        "category": "Menschen helfen",
+        "type": "Name nicht eindeutig",
+        "description": "Angeblich Unterstützung pflegender Angehöriger",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-009",
+        "name": "Spendenparlamente",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Projektart",
+        "description": "Bürger entscheiden gemeinschaftlich über Förderungen sozialer Projekte",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-010",
+        "name": "Tatkraft e.V.",
+        "status": "OFFEN",
+        "category": "Menschen helfen",
+        "type": "Name nicht eindeutig",
+        "description": "Angeblich ehrenamtliche Wohnungsrenovierung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-011",
+        "name": "brotZeit e.V.",
+        "status": "BELEGT",
+        "category": "Menschen helfen",
+        "type": "Organisation",
+        "description": "Ehrenamtliche Frühstücksangebote für Kinder an Schulen",
+        "url": "https://www.brotzeitfuerkinder.com/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-012",
+        "name": "nestwärme e.V.",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Organisation",
+        "description": "Unterstützt Familien mit schwerkranken oder beeinträchtigten Kindern",
+        "url": "https://www.nestwaerme.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.405,
+          52.52
+        ]
+      },
+      "properties": {
+        "id": "A2030-013",
+        "name": "KulturLeben Berlin",
+        "status": "BELEGT",
+        "category": "Menschen helfen",
+        "type": "Organisation",
+        "description": "Kulturelle Teilhabe für Menschen mit geringem Einkommen",
+        "url": "https://kulturleben-berlin.de/",
+        "city": "Berlin",
+        "location_note": "Stadtgebiet; kein exakter Projektstandort im Register",
+        "map_pin": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-014",
+        "name": "Leihläden / Leihbar",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Projektart",
+        "description": "Gegenstände ausleihen statt neu kaufen",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-015",
+        "name": "Seniorengenossenschaften / Zeitbanken",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Projektart",
+        "description": "Gegenseitige Hilfe mit Zeitguthaben oder Leistungsmodellen",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-016",
+        "name": "Gabenzäune",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Projektart",
+        "description": "Direkte Weitergabe von Lebensmitteln oder Kleidung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-017",
+        "name": "Kiezbündnisse",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Projektart",
+        "description": "Nachbarschaftsnetzwerke zur Unterstützung lokaler Treffpunkte und Läden",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-018",
+        "name": "wellcome",
+        "status": "BELEGT",
+        "category": "Menschen helfen",
+        "type": "Organisation/Netzwerk",
+        "description": "Praktische Hilfe für Familien nach der Geburt",
+        "url": "https://wellcome-online.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-019",
+        "name": "Herzensretter / Laien-Reanimation",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Projektart/Name zu prüfen",
+        "description": "Vermittlung von Wiederbelebung und Erster Hilfe",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-020",
+        "name": "Umsonstläden",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Menschen helfen",
+        "type": "Projektart",
+        "description": "Kostenlose Tausch- und Weitergaberäume",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-122",
+        "name": "Mehrgenerationenhäuser – Bundesprogramm",
+        "status": "BELEGT",
+        "category": "Menschen helfen",
+        "type": "Programm/Netzwerk",
+        "description": "Begegnung und lokale Angebote zwischen Generationen",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-021",
+        "name": "Bürgerenergiegenossenschaften / BBEn",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Netzwerk/Projektart",
+        "description": "Bürgerbeteiligung an erneuerbaren Energieprojekten",
+        "url": "https://www.buendnis-buergerenergie.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-022",
+        "name": "Solidarische Landwirtschaft (SoLaWi)",
+        "status": "BELEGT",
+        "category": "Klima & Umwelt",
+        "type": "Netzwerk/Projektart",
+        "description": "Gemeinschaftlich finanzierte Landwirtschaft und Ernteanteile",
+        "url": "https://www.solidarische-landwirtschaft.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-023",
+        "name": "MünchenBudget",
+        "status": "BELEGT",
+        "category": "Klima & Umwelt",
+        "type": "Kommunales Beteiligungsverfahren",
+        "description": "Bürgerideen für die Stadt einbringen und priorisieren",
+        "url": "https://unser.muenchen.de/muenchenbudget2026",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-024",
+        "name": "Balkonkraftwerk-Sammelbestellungen",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Projektart",
+        "description": "Nachbarschaftliche Beschaffung und Information zu Steckersolar",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-025",
+        "name": "Repair Cafés / anstiftung",
+        "status": "BELEGT",
+        "category": "Klima & Umwelt",
+        "type": "Netzwerk/Projektart",
+        "description": "Gemeinsam reparieren, Wissen teilen, Abfall vermeiden",
+        "url": "https://www.repaircafe.org/de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-026",
+        "name": "Foodsharing",
+        "status": "BELEGT",
+        "category": "Klima & Umwelt",
+        "type": "Netzwerk/Initiative",
+        "description": "Lebensmittel retten und Verschwendung reduzieren",
+        "url": "https://foodsharing.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-027",
+        "name": "Moor-Retter-Initiativen",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Projektart",
+        "description": "Moorpflege und Renaturierung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-028",
+        "name": "Bergwaldprojekt e.V.",
+        "status": "BELEGT",
+        "category": "Klima & Umwelt",
+        "type": "Organisation",
+        "description": "Freiwilligeneinsätze für Wald- und Ökosystemschutz",
+        "url": "https://www.bergwaldprojekt.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-029",
+        "name": "Waldbrücke e.V.",
+        "status": "OFFEN",
+        "category": "Klima & Umwelt",
+        "type": "Name nicht eindeutig",
+        "description": "In der Sammlung zusammen mit Bergwaldprojekt erwähnt",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-030",
+        "name": "Plastikfreie Stadt (Flensburg/Rostock)",
+        "status": "OFFEN",
+        "category": "Klima & Umwelt",
+        "type": "Projekt/Name zu prüfen",
+        "description": "Lokale Plastikvermeidungsaktionen laut Ausgangssammlung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-031",
+        "name": "Klimabündnisse / Klimaentscheide",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Netzwerk/Projektart",
+        "description": "Bürgerinitiativen für kommunalen Klimaschutz",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-032",
+        "name": "RESTLOS GLÜCKLICH e.V.",
+        "status": "BELEGT",
+        "category": "Klima & Umwelt",
+        "type": "Organisation",
+        "description": "Bildung zu Lebensmittelwertschätzung und nachhaltiger Ernährung",
+        "url": "https://www.restlos-gluecklich.berlin/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-033",
+        "name": "Gemeinschaftsgärten / Prinzessinnengärten",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Projektart/Beispiel",
+        "description": "Urbanes Gärtnern, Begegnung und Umweltbildung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-034",
+        "name": "Baumpatenschaften",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Projektart",
+        "description": "Freiwillige pflegen oder bewässern Stadtbäume",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-035",
+        "name": "Energiewende-Stammtische",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Projektart",
+        "description": "Nachbarschaftlicher Austausch zu Energieeinsparung und Heizungen",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-036",
+        "name": "RhineCleanUp",
+        "status": "BELEGT",
+        "category": "Klima & Umwelt",
+        "type": "Netzwerk/Projekt",
+        "description": "Müllsammelaktionen an Flüssen und Gewässern",
+        "url": "https://www.rhinecleanup.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-037",
+        "name": "Zero-Waste-Vereine und Tauschbörsen",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Projektart",
+        "description": "Wiederverwendung und Abfallvermeidung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-038",
+        "name": "Fahrrad-Reparatur-Kollektive",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Projektart",
+        "description": "Selbstverwaltete Werkstätten und nachhaltige Mobilität",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-039",
+        "name": "Ökodorf Sieben Linden",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Konkretes Projekt",
+        "description": "Ökologisch ausgerichtetes Gemeinschaftsprojekt",
+        "url": "https://siebenlinden.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-040",
+        "name": "Bienen- und Insektenbiotope Wilnsdorf",
+        "status": "OFFEN",
+        "category": "Klima & Umwelt",
+        "type": "Lokales Projekt/Name zu prüfen",
+        "description": "Schul- und Bürgerkooperationen laut Sammlung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-041",
+        "name": "Tiny-House-Genossenschaften",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Klima & Umwelt",
+        "type": "Projektart",
+        "description": "Gemeinschaftliche flächensparende Wohnprojekte",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-042",
+        "name": "Brandenburger Solareuro",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Regelung/Modell",
+        "description": "Kommunale Beteiligung an bestimmten Energieprojekten",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-043",
+        "name": "Energieautarkes Dorf Feldheim",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Konkretes Projekt",
+        "description": "Lokale erneuerbare Energie- und Wärmeversorgung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-044",
+        "name": "Regionalwert AG",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Unternehmen/Netzwerk",
+        "description": "Bürgerkapital für regionale ökologische Lebensmittelwirtschaft",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-045",
+        "name": "Mietshäuser Syndikat",
+        "status": "BELEGT",
+        "category": "Alternative Ökonomie",
+        "type": "Netzwerk",
+        "description": "Unterstützt selbstorganisierte Hausprojekte",
+        "url": "https://www.syndikat.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-046",
+        "name": "Genossenschaftliche Dorfläden",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Projektart",
+        "description": "Gemeinschaftlich getragene Nahversorgung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-047",
+        "name": "Bürgerwindpark Klixbüll",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Konkretes Projekt",
+        "description": "Regional verankertes Windenergieprojekt",
+        "url": "https://www.klixbuell.de/seite/202373/2.-klixb%C3%BCller-b%C3%BCrgerwindpark.html",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-048",
+        "name": "Quartiers-Gutscheine",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Projektart",
+        "description": "Lokale Gutscheinsysteme für regionalen Handel",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-049",
+        "name": "Wohnungsbaugenossenschaften von unten",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Projektart",
+        "description": "Gemeinschaftlicher Bau bezahlbaren Wohnraums",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-050",
+        "name": "afb social & green IT",
+        "status": "BELEGT",
+        "category": "Alternative Ökonomie",
+        "type": "Inklusionsunternehmen",
+        "description": "IT-Wiederaufbereitung und inklusive Arbeitsplätze",
+        "url": "https://www.afb-group.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-051",
+        "name": "Kreativ-Genossenschaften",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Projektart",
+        "description": "Gemeinsame Ateliers, Werkstätten und Ausstattung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-052",
+        "name": "Kauf-Lokal-Initiativen",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Projektart",
+        "description": "Unterstützung inhabergeführter Läden und regionaler Betriebe",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-053",
+        "name": "Marktschwärmer",
+        "status": "OFFEN",
+        "category": "Alternative Ökonomie",
+        "type": "Plattform/Netzwerk",
+        "description": "Direktvermarktung regionaler Lebensmittel laut Sammlung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-054",
+        "name": "Bürgerbus Weilerbach",
+        "status": "OFFEN",
+        "category": "Alternative Ökonomie",
+        "type": "Lokales Projekt/Name zu prüfen",
+        "description": "Ehrenamtliche Mobilität im ländlichen Raum laut Sammlung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-055",
+        "name": "Coworking-Genossenschaften im ländlichen Raum",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Alternative Ökonomie",
+        "type": "Projektart",
+        "description": "Gemeinschaftliche Arbeitsorte in kleineren Gemeinden",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-056",
+        "name": "Fair-Teilen-Stiftungen",
+        "status": "OFFEN",
+        "category": "Alternative Ökonomie",
+        "type": "Name nicht eindeutig",
+        "description": "Angebliches Stiftungsmodell zur Reinvestition sozialer Gewinne",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-057",
+        "name": "Bürgerentscheide für Integration",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Projektart",
+        "description": "Kommunale Beteiligung an menschenwürdigen Unterkünften und Angeboten",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-058",
+        "name": "Start with a Friend e.V.",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Organisation",
+        "description": "Tandems und Begegnungen zwischen Menschen mit und ohne Einwanderungsgeschichte",
+        "url": "https://www.start-with-a-friend.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-059",
+        "name": "Flüchtlinge Willkommen / Refugees Welcome",
+        "status": "OFFEN",
+        "category": "Integration",
+        "type": "Projekt/Name zu klären",
+        "description": "Wohnraumvermittlung an Geflüchtete laut Sammlung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-060",
+        "name": "Über den Tellerrand e.V.",
+        "status": "BELEGT",
+        "category": "Integration",
+        "type": "Organisation/Netzwerk",
+        "description": "Begegnung, Kochen und Mentoring zwischen Menschen verschiedener Herkunft",
+        "url": "https://ueberdentellerrand.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-061",
+        "name": "Bike Bridge / Bike & Belong",
+        "status": "BELEGT",
+        "category": "Integration",
+        "type": "Organisation/Projekt",
+        "description": "Fahrradangebote und Begegnung, besonders für Frauen mit Flucht-/Migrationserfahrung",
+        "url": "https://bikebridge.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-062",
+        "name": "Refugee Law Clinics",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Netzwerk",
+        "description": "Niedrigschwellige rechtliche Beratung für Geflüchtete",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-063",
+        "name": "Social-Bee",
+        "status": "OFFEN",
+        "category": "Integration",
+        "type": "Organisation/Unternehmen",
+        "description": "Arbeitsmarktintegration laut Ausgangssammlung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-064",
+        "name": "SINGA Deutschland",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Netzwerk/Programm",
+        "description": "Unternehmerische Ideen und berufliche Netzwerke von Zugewanderten",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-065",
+        "name": "Chancenwerk e.V.",
+        "status": "BELEGT",
+        "category": "Integration",
+        "type": "Organisation",
+        "description": "Lernförderung und Peer-Learning",
+        "url": "https://chancenwerk.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-066",
+        "name": "Multaka",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Kulturvermittlungsprojekt",
+        "description": "Mehrsprachige Museumsführungen durch Menschen mit Fluchterfahrung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-067",
+        "name": "Sportvereine / Landessportbünde",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Netzwerk/Projektart",
+        "description": "Sport als Zugang zu Begegnung und Teilhabe",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-068",
+        "name": "Sprachcafés",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Projektart",
+        "description": "Informelle Begegnung und Deutschübung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-069",
+        "name": "Willkommensbündnisse",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Projektart",
+        "description": "Lokale Begleitung, Sachspenden und Orientierung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-070",
+        "name": "Heimatgarten-Projekte",
+        "status": "OFFEN",
+        "category": "Integration",
+        "type": "Projektart/Name zu prüfen",
+        "description": "Gemeinsames Gärtnern als Integrationsangebot",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-071",
+        "name": "Bantu e.V.",
+        "status": "OFFEN",
+        "category": "Integration",
+        "type": "Name nicht eindeutig",
+        "description": "Angebliche psychosoziale Unterstützung für geflüchtete Kinder",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-072",
+        "name": "Kiron Open Higher Education",
+        "status": "OFFEN",
+        "category": "Integration",
+        "type": "Organisation/Programm",
+        "description": "Digitale Bildungsangebote für Geflüchtete laut Sammlung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-073",
+        "name": "Näh-Coops für geflüchtete Frauen",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Projektart",
+        "description": "Kreativwerkstätten, Handwerk und Begegnung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-074",
+        "name": "Patenschaften/Vormundschaften für unbegleitete Minderjährige",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Integration",
+        "type": "Projektart",
+        "description": "Begleitung junger Geflüchteter",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-075",
+        "name": "Kulturbrücke e.V.",
+        "status": "OFFEN",
+        "category": "Integration",
+        "type": "Name nicht eindeutig",
+        "description": "Angebliche interkulturelle Theaterprojekte",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-076",
+        "name": "Wir zusammen",
+        "status": "OFFEN",
+        "category": "Integration",
+        "type": "Initiative/Name zu prüfen",
+        "description": "Wirtschaftsinitiative für Integration/Ausbildung laut Sammlung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-124",
+        "name": "Flüchtlinge Willkommen",
+        "status": "OFFEN",
+        "category": "Integration",
+        "type": "Projekt/Name zu klären",
+        "description": "Historisch mit WG-Wohnraum für Geflüchtete verbunden",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-077",
+        "name": "Break the Fake e.V.",
+        "status": "OFFEN",
+        "category": "Jugend & Soziales",
+        "type": "Name nicht eindeutig",
+        "description": "Angebliche studentische Aufklärung zu Fake News",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-078",
+        "name": "related e.V.",
+        "status": "OFFEN",
+        "category": "Jugend & Soziales",
+        "type": "Name nicht eindeutig",
+        "description": "Angebliche Initiative gegen digitale Radikalisierung/Hate Speech",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-079",
+        "name": "Offener Jugendtreff Kirchanschöring",
+        "status": "OFFEN",
+        "category": "Jugend & Soziales",
+        "type": "Lokales Projekt/Name zu prüfen",
+        "description": "Selbstverwalteter Jugendtreff laut Sammlung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-080",
+        "name": "Gangway e.V.",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation",
+        "description": "Straßensozialarbeit in Berlin",
+        "url": "https://gangway.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-081",
+        "name": "balou e.V. Dortmund",
+        "status": "OFFEN",
+        "category": "Jugend & Soziales",
+        "type": "Organisation/Name zu prüfen",
+        "description": "Angebliches Bürgerzentrum für Jugendkultur/Streetwork",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-082",
+        "name": "Die Arche",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation",
+        "description": "Unterstützung von Kindern und Familien",
+        "url": "https://www.kinderprojekt-arche.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-083",
+        "name": "ROCK YOUR LIFE!",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation/Netzwerk",
+        "description": "Mentoring für Jugendliche",
+        "url": "https://rockyourlife.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-084",
+        "name": "Kein Abseits! e.V.",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation",
+        "description": "Patenschaften und Freizeitaktivitäten für Kinder",
+        "url": "https://www.kein-abseits.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-085",
+        "name": "Jugend hackt",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Programm/Netzwerk",
+        "description": "Digitale Projekte und Lernen für junge Menschen",
+        "url": "https://jugendhackt.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-086",
+        "name": "Serlo",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Lernplattform",
+        "description": "Freie digitale Lernmaterialien",
+        "url": "https://de.serlo.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-087",
+        "name": "Afeefa Regionalportale",
+        "status": "OFFEN",
+        "category": "Jugend & Soziales",
+        "type": "Plattform/Projekt",
+        "description": "Digitale Übersichten sozialer Angebote",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-088",
+        "name": "Off Road Kids",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation",
+        "description": "Hilfe für Straßenkinder und junge Wohnungslose",
+        "url": "https://offroadkids.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-089",
+        "name": "Jura-Paten an Schulen",
+        "status": "OFFEN",
+        "category": "Jugend & Soziales",
+        "type": "Projektart/Name zu prüfen",
+        "description": "Angebliche ehrenamtliche Demokratie- und Rechtsbildung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-090",
+        "name": "MENTOR – Die Leselernhelfer",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Netzwerk",
+        "description": "Ehrenamtliche Leseförderung",
+        "url": "https://www.mentor-bundesverband.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-091",
+        "name": "Schule ohne Rassismus – Schule mit Courage",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Netzwerk",
+        "description": "Schulnetzwerk gegen Diskriminierung",
+        "url": "https://www.schule-ohne-rassismus.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-092",
+        "name": "Kicking Girls",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Jugend & Soziales",
+        "type": "Programm/Projekt",
+        "description": "Fußballangebote für Mädchen und soziale Teilhabe",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-093",
+        "name": "Digital-Kompass",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Jugend & Soziales",
+        "type": "Netzwerk/Projekt",
+        "description": "Unterstützt digitale Teilhabe",
+        "url": "https://www.digital-kompass.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-094",
+        "name": "Mitwirken – Hertie-Stiftung",
+        "status": "OFFEN",
+        "category": "Jugend & Soziales",
+        "type": "Programm/Name zu prüfen",
+        "description": "Angebliche Demokratieprojekte für Jugendliche",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-095",
+        "name": "Junge Helden e.V.",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation",
+        "description": "Aufklärung über Organspende",
+        "url": "https://junge-helden.eu/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-096",
+        "name": "querstadtein e.V.",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation",
+        "description": "Stadtführungen mit Perspektiven von Menschen mit Ausgrenzungserfahrung",
+        "url": "https://querstadtein.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-097",
+        "name": "Huckepack e.V.",
+        "status": "OFFEN",
+        "category": "Jugend & Soziales",
+        "type": "Name nicht eindeutig",
+        "description": "Angebliche Kinderpatenschaften/Schulbegleitung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-098",
+        "name": "JOBLINGE",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation/Netzwerk",
+        "description": "Unterstützung beim Einstieg in Ausbildung und Beruf",
+        "url": "https://www.joblinge.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-099",
+        "name": "Tausche Bildung für Wohnen",
+        "status": "BELEGT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation/Projekt",
+        "description": "Bildungsengagement und gemeinschaftliche Wohnmodelle",
+        "url": "https://tauschebildung.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-100",
+        "name": "Kulturkosmos e.V.",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Jugend & Soziales",
+        "type": "Organisation/Name zu prüfen",
+        "description": "Angeblicher selbstverwalteter Jugend- und Kulturraum",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-101",
+        "name": "Streetwork-Busse / mobile Anlaufstellen",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Jugend & Soziales",
+        "type": "Projektart",
+        "description": "Mobile Unterstützung für Menschen in prekären Lebenslagen",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-102",
+        "name": "Tafel Deutschland und lokale Tafeln",
+        "status": "BELEGT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Dachverband/lokale Angebote",
+        "description": "Lebensmittel retten und Menschen in Armut unterstützen",
+        "url": "https://www.tafel.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-103",
+        "name": "Tafel Jugend",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Netzwerk",
+        "description": "Junge Ehrenamtliche im Tafel-Umfeld",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-104",
+        "name": "Lesestart 1–2–3",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Bildungsprogramm",
+        "description": "Frühkindliche Leseförderung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-105",
+        "name": "Social B&B",
+        "status": "OFFEN",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Projektname zu klären",
+        "description": "Angebliche Wohnhilfe für junge Menschen; nicht mit Social-Bee verwechseln",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-106",
+        "name": "NachbarBude",
+        "status": "OFFEN",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Lokales Projekt/Name zu prüfen",
+        "description": "Lokales Vernetzungsprojekt gegen Einsamkeit laut Quelle der Stadt Dortmund",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-107",
+        "name": "Social Open Source",
+        "status": "OFFEN",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Projektname zu prüfen",
+        "description": "Idee zu selbstorganisierten digitalen Angeboten gegen Einsamkeit",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9876,
+          48.4011
+        ]
+      },
+      "properties": {
+        "id": "A2030-108",
+        "name": "Gemeinsam Wohnen am Kuhberg, Ulm",
+        "status": "BELEGT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Konkretes Wohnprojekt",
+        "description": "Mehrgenerationen-Wohnprojekt mit Gemeinschaftsraum",
+        "url": "https://www.agw-ulm.de/projekt/",
+        "city": "Ulm",
+        "location_note": "Stadtgebiet; kein exakter Projektstandort im Register",
+        "map_pin": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-109",
+        "name": "Weinberg Carré, Ulm",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Quartiers-/Wohnprojekt",
+        "description": "Wohnungsbauprojekt mit gefördertem Wohnraum",
+        "url": "https://www.ulm.de/aktuelle-meldungen/z%C3%B6a/november-2019/weinbergcarre",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-110",
+        "name": "Gemeinsam wohnen am Weinberg, Ulm",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Konkretes Wohnprojekt",
+        "description": "Barrierefreie, teils geförderte und betreute Wohnungen",
+        "url": "https://www.gs-architektur.de/projekte/gemeinsam-wohnen-am-weinberg-ulm/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-111",
+        "name": "Karriere Buddy – Über den Tellerrand",
+        "status": "BELEGT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Teilprojekt",
+        "description": "Mentoring für Bewerbungsprozess und Arbeitsmarktorientierung",
+        "url": "https://ueberdentellerrand.org/projekte/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-112",
+        "name": "Community Connect – Über den Tellerrand",
+        "status": "BELEGT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Teilprojekt",
+        "description": "Begegnungsformate mit migrantischen Communities",
+        "url": "https://ueberdentellerrand.org/projekte/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-113",
+        "name": "BEGIN – berufliche Integration",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Kooperationsprojekt",
+        "description": "Netzwerkunterstützung bei Bewerbung und Arbeitssuche",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-114",
+        "name": "Freiwilligenagenturen",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Projektart/Netzwerk",
+        "description": "Vermittlung in passende ehrenamtliche Tätigkeiten",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-115",
+        "name": "Besuchs- und Telefonpatenschaften",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Projektart",
+        "description": "Gegen Einsamkeit und soziale Isolation",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-116",
+        "name": "Wunschgroßeltern / Leihoma-Leihopa",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Projektart",
+        "description": "Generationenübergreifende Unterstützung von Familien",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-117",
+        "name": "Inklusive Freizeit- und Begleitdienste",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Projektart",
+        "description": "Teilhabe für Menschen mit Behinderung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-118",
+        "name": "Ernährungsräte",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Netzwerk/Projektart",
+        "description": "Vernetzen Landwirtschaft, Zivilgesellschaft und Kommunen",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-119",
+        "name": "Kommunale Klimafonds und Begrünungsfonds",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Projektart",
+        "description": "Förderung von Entsiegelung, Begrünung, Energie- und Nachbarschaftsideen",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-120",
+        "name": "Gemeinschaftliche Werkzeugbibliotheken",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Projektart",
+        "description": "Teilen selten genutzter Werkzeuge",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-121",
+        "name": "Kommunale Bürgerhaushalte",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Zusätzliche Ergänzungen",
+        "type": "Projektart",
+        "description": "Einwohner priorisieren Vorschläge zur Mittelverwendung",
+        "url": "",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-123",
+        "name": "Mietshäuser Syndikat",
+        "status": "BELEGT",
+        "category": "Wohnen",
+        "type": "Netzwerk",
+        "description": "Selbstorganisierte Hausprojekte und gemeinschaftlich gebundener Wohnraum",
+        "url": "https://www.syndikat.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-125",
+        "name": "ulmer heimstätte eG",
+        "status": "TEILWEISE GEPRÜFT",
+        "category": "Wohnen",
+        "type": "Wohnungsgenossenschaft",
+        "description": "Wohnungsbau und konkrete Quartiersprojekte",
+        "url": "https://www.ulmer-heimstaette.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5761,
+          48.1371
+        ]
+      },
+      "properties": {
+        "id": "A2030-126",
+        "name": "MünchenBudget 2026",
+        "status": "BELEGT",
+        "category": "Bürgerbeteiligung",
+        "type": "Kommunales Verfahren",
+        "description": "Bürgerideen und kommunale Mitgestaltung",
+        "url": "https://unser.muenchen.de/muenchenbudget2026",
+        "city": "München",
+        "location_note": "Stadtgebiet; kein exakter Projektstandort im Register",
+        "map_pin": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-127",
+        "name": "Serlo",
+        "status": "BELEGT",
+        "category": "Jugend & Bildung",
+        "type": "Lernplattform",
+        "description": "Kostenfreie digitale Lernmaterialien",
+        "url": "https://de.serlo.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-128",
+        "name": "JOBLINGE",
+        "status": "BELEGT",
+        "category": "Jugend & Bildung",
+        "type": "Organisation",
+        "description": "Berufseinstieg junger Menschen",
+        "url": "https://www.joblinge.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-129",
+        "name": "Tausche Bildung für Wohnen",
+        "status": "BELEGT",
+        "category": "Jugend & Bildung",
+        "type": "Organisation/Projekt",
+        "description": "Bildungsunterstützung und Wohnen verbinden",
+        "url": "https://tauschebildung.de/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "A2030-130",
+        "name": "Jugend hackt",
+        "status": "BELEGT",
+        "category": "Jugend & Bildung",
+        "type": "Programm",
+        "description": "Digitale Projekte für Jugendliche",
+        "url": "https://jugendhackt.org/",
+        "city": "",
+        "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
+        "map_pin": false
+      }
+    }
+  ]
 }
