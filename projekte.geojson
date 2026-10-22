@@ -13,7 +13,7 @@
       "properties": {
         "id": "A2030-001",
         "name": "Mütterzentrum Dortmund – Eulen & Lerchen",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Menschen helfen",
         "type": "Lokales Projekt",
         "description": "Randzeitenbetreuung für Kinder von Eltern im Schichtdienst",
@@ -30,7 +30,7 @@
       "properties": {
         "id": "A2030-002",
         "name": "Silbernetz e.V.",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Menschen helfen",
         "type": "Organisation",
         "description": "Telefonkontakte und Unterstützung gegen Einsamkeit im Alter",
@@ -79,7 +79,7 @@
       "properties": {
         "id": "A2030-005",
         "name": "nebenan.de Stiftung",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Menschen helfen",
         "type": "Organisation",
         "description": "Fördert Nachbarschaftsengagement, Klimaschutzideen und Begegnung",
@@ -112,7 +112,7 @@
       "properties": {
         "id": "A2030-007",
         "name": "ASB-Wünschewagen",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Menschen helfen",
         "type": "Organisation/Projekt",
         "description": "Ermöglicht schwerstkranken Menschen Wunschfahrten",
@@ -177,7 +177,7 @@
       "properties": {
         "id": "A2030-011",
         "name": "brotZeit e.V.",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Menschen helfen",
         "type": "Organisation",
         "description": "Ehrenamtliche Frühstücksangebote für Kinder an Schulen",
@@ -217,7 +217,7 @@
       "properties": {
         "id": "A2030-013",
         "name": "KulturLeben Berlin",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Menschen helfen",
         "type": "Organisation",
         "description": "Kulturelle Teilhabe für Menschen mit geringem Einkommen",
@@ -298,7 +298,7 @@
       "properties": {
         "id": "A2030-018",
         "name": "wellcome",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Menschen helfen",
         "type": "Organisation/Netzwerk",
         "description": "Praktische Hilfe für Familien nach der Geburt",
@@ -347,7 +347,7 @@
       "properties": {
         "id": "A2030-122",
         "name": "Mehrgenerationenhäuser – Bundesprogramm",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Menschen helfen",
         "type": "Programm/Netzwerk",
         "description": "Begegnung und lokale Angebote zwischen Generationen",
@@ -379,7 +379,7 @@
       "properties": {
         "id": "A2030-022",
         "name": "Solidarische Landwirtschaft (SoLaWi)",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Klima & Umwelt",
         "type": "Netzwerk/Projektart",
         "description": "Gemeinschaftlich finanzierte Landwirtschaft und Ernteanteile",
@@ -396,7 +396,7 @@
       "properties": {
         "id": "A2030-023",
         "name": "MünchenBudget",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Klima & Umwelt",
         "type": "Kommunales Beteiligungsverfahren",
         "description": "Bürgerideen für die Stadt einbringen und priorisieren",
@@ -428,7 +428,7 @@
       "properties": {
         "id": "A2030-025",
         "name": "Repair Cafés / anstiftung",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Klima & Umwelt",
         "type": "Netzwerk/Projektart",
         "description": "Gemeinsam reparieren, Wissen teilen, Abfall vermeiden",
@@ -445,7 +445,7 @@
       "properties": {
         "id": "A2030-026",
         "name": "Foodsharing",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Klima & Umwelt",
         "type": "Netzwerk/Initiative",
         "description": "Lebensmittel retten und Verschwendung reduzieren",
@@ -478,7 +478,7 @@
       "properties": {
         "id": "A2030-028",
         "name": "Bergwaldprojekt e.V.",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Klima & Umwelt",
         "type": "Organisation",
         "description": "Freiwilligeneinsätze für Wald- und Ökosystemschutz",
@@ -549,7 +549,7 @@
       "properties": {
         "id": "A2030-032",
         "name": "RESTLOS GLÜCKLICH e.V.",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Klima & Umwelt",
         "type": "Organisation",
         "description": "Bildung zu Lebensmittelwertschätzung und nachhaltiger Ernährung",
@@ -614,7 +614,7 @@
       "properties": {
         "id": "A2030-036",
         "name": "RhineCleanUp",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Klima & Umwelt",
         "type": "Netzwerk/Projekt",
         "description": "Müllsammelaktionen an Flüssen und Gewässern",
@@ -765,7 +765,7 @@
       "properties": {
         "id": "A2030-045",
         "name": "Mietshäuser Syndikat",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Alternative Ökonomie",
         "type": "Netzwerk",
         "description": "Unterstützt selbstorganisierte Hausprojekte",
@@ -853,7 +853,7 @@
       "properties": {
         "id": "A2030-050",
         "name": "afb social & green IT",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Alternative Ökonomie",
         "type": "Inklusionsunternehmen",
         "description": "IT-Wiederaufbereitung und inklusive Arbeitsplätze",
@@ -1021,7 +1021,7 @@
       "properties": {
         "id": "A2030-060",
         "name": "Über den Tellerrand e.V.",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Integration",
         "type": "Organisation/Netzwerk",
         "description": "Begegnung, Kochen und Mentoring zwischen Menschen verschiedener Herkunft",
@@ -1037,7 +1037,7 @@
       "properties": {
         "id": "A2030-061",
         "name": "Bike Bridge / Bike & Belong",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Integration",
         "type": "Organisation/Projekt",
         "description": "Fahrradangebote und Begegnung, besonders für Frauen mit Flucht-/Migrationserfahrung",
@@ -1101,7 +1101,7 @@
       "properties": {
         "id": "A2030-065",
         "name": "Chancenwerk e.V.",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Integration",
         "type": "Organisation",
         "description": "Lernförderung und Peer-Learning",
@@ -1363,7 +1363,7 @@
       "properties": {
         "id": "A2030-080",
         "name": "Gangway e.V.",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Organisation",
         "description": "Straßensozialarbeit in Berlin",
@@ -1396,7 +1396,7 @@
       "properties": {
         "id": "A2030-082",
         "name": "Die Arche",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Organisation",
         "description": "Unterstützung von Kindern und Familien",
@@ -1412,7 +1412,7 @@
       "properties": {
         "id": "A2030-083",
         "name": "ROCK YOUR LIFE!",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Organisation/Netzwerk",
         "description": "Mentoring für Jugendliche",
@@ -1444,7 +1444,7 @@
       "properties": {
         "id": "A2030-085",
         "name": "Jugend hackt",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Programm/Netzwerk",
         "description": "Digitale Projekte und Lernen für junge Menschen",
@@ -1460,7 +1460,7 @@
       "properties": {
         "id": "A2030-086",
         "name": "Serlo",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Lernplattform",
         "description": "Freie digitale Lernmaterialien",
@@ -1492,7 +1492,7 @@
       "properties": {
         "id": "A2030-088",
         "name": "Off Road Kids",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Organisation",
         "description": "Hilfe für Straßenkinder und junge Wohnungslose",
@@ -1524,7 +1524,7 @@
       "properties": {
         "id": "A2030-090",
         "name": "MENTOR – Die Leselernhelfer",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Netzwerk",
         "description": "Ehrenamtliche Leseförderung",
@@ -1540,7 +1540,7 @@
       "properties": {
         "id": "A2030-091",
         "name": "Schule ohne Rassismus – Schule mit Courage",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Netzwerk",
         "description": "Schulnetzwerk gegen Diskriminierung",
@@ -1604,7 +1604,7 @@
       "properties": {
         "id": "A2030-095",
         "name": "Junge Helden e.V.",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Organisation",
         "description": "Aufklärung über Organspende",
@@ -1620,7 +1620,7 @@
       "properties": {
         "id": "A2030-096",
         "name": "querstadtein e.V.",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Organisation",
         "description": "Stadtführungen mit Perspektiven von Menschen mit Ausgrenzungserfahrung",
@@ -1652,7 +1652,7 @@
       "properties": {
         "id": "A2030-098",
         "name": "JOBLINGE",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Organisation/Netzwerk",
         "description": "Unterstützung beim Einstieg in Ausbildung und Beruf",
@@ -1668,7 +1668,7 @@
       "properties": {
         "id": "A2030-099",
         "name": "Tausche Bildung für Wohnen",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Soziales",
         "type": "Organisation/Projekt",
         "description": "Bildungsengagement und gemeinschaftliche Wohnmodelle",
@@ -1716,7 +1716,7 @@
       "properties": {
         "id": "A2030-102",
         "name": "Tafel Deutschland und lokale Tafeln",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Zusätzliche Ergänzungen",
         "type": "Dachverband/lokale Angebote",
         "description": "Lebensmittel retten und Menschen in Armut unterstützen",
@@ -1818,7 +1818,7 @@
       "properties": {
         "id": "A2030-108",
         "name": "Gemeinsam Wohnen am Kuhberg, Ulm",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Zusätzliche Ergänzungen",
         "type": "Konkretes Wohnprojekt",
         "description": "Mehrgenerationen-Wohnprojekt mit Gemeinschaftsraum",
@@ -1881,7 +1881,7 @@
       "properties": {
         "id": "A2030-111",
         "name": "Karriere Buddy – Über den Tellerrand",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Zusätzliche Ergänzungen",
         "type": "Teilprojekt",
         "description": "Mentoring für Bewerbungsprozess und Arbeitsmarktorientierung",
@@ -1897,7 +1897,7 @@
       "properties": {
         "id": "A2030-112",
         "name": "Community Connect – Über den Tellerrand",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Zusätzliche Ergänzungen",
         "type": "Teilprojekt",
         "description": "Begegnungsformate mit migrantischen Communities",
@@ -2057,7 +2057,7 @@
       "properties": {
         "id": "A2030-123",
         "name": "Mietshäuser Syndikat",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Wohnen",
         "type": "Netzwerk",
         "description": "Selbstorganisierte Hausprojekte und gemeinschaftlich gebundener Wohnraum",
@@ -2095,7 +2095,7 @@
       "properties": {
         "id": "A2030-126",
         "name": "MünchenBudget 2026",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Bürgerbeteiligung",
         "type": "Kommunales Verfahren",
         "description": "Bürgerideen und kommunale Mitgestaltung",
@@ -2112,7 +2112,7 @@
       "properties": {
         "id": "A2030-127",
         "name": "Serlo",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Bildung",
         "type": "Lernplattform",
         "description": "Kostenfreie digitale Lernmaterialien",
@@ -2128,7 +2128,7 @@
       "properties": {
         "id": "A2030-128",
         "name": "JOBLINGE",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Bildung",
         "type": "Organisation",
         "description": "Berufseinstieg junger Menschen",
@@ -2144,7 +2144,7 @@
       "properties": {
         "id": "A2030-129",
         "name": "Tausche Bildung für Wohnen",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Bildung",
         "type": "Organisation/Projekt",
         "description": "Bildungsunterstützung und Wohnen verbinden",
@@ -2160,7 +2160,7 @@
       "properties": {
         "id": "A2030-130",
         "name": "Jugend hackt",
-        "status": "BELEGT",
+        "status": "O.K.",
         "category": "Jugend & Bildung",
         "type": "Programm",
         "description": "Digitale Projekte für Jugendliche",
@@ -2168,6 +2168,222 @@
         "city": "",
         "location_note": "Im Projektregister ist kein eindeutig bestätigter einzelner Kartenstandort angegeben.",
         "map_pin": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4241,
+          51.1817
+        ]
+      },
+      "properties": {
+        "id": "A2030-131",
+        "name": "Motorradfreunde Oberlausitz e.V. – Kinder-Arche-Ausfahrt",
+        "status": "O.K.",
+        "category": "Jugend & Soziales",
+        "type": "Lokales Projekt / Verein",
+        "description": "Ehrenamtliche Motorradausfahrten und weitere Aktionen für Kinder und Jugendliche aus Einrichtungen der Kinder-Arche Sachsen; Profil für den Deutschen Engagementpreis 2026.",
+        "url": "https://www.deutscher-engagementpreis.de/engagiertenfinder/engagiertendetails/7123-motorradfreunde-oberlausitz-ev",
+        "city": "Bautzen",
+        "location_note": "Stadtgebiet Bautzen; Kartenpunkt zeigt nur die ungefähre Stadtlage, keine Projektadresse.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet (ungefähr)",
+        "source_year": "2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9603,
+          50.9375
+        ]
+      },
+      "properties": {
+        "id": "A2030-132",
+        "name": "Klima schützen mit Zahlen",
+        "status": "O.K.",
+        "category": "Klima & Umwelt; Bildung",
+        "type": "Bildungsprojekt",
+        "description": "Bildungsprojekt, das Klimaschutz mit Zahlen verständlicher und greifbarer machen will; im Engagiertenfinder 2026 aufgeführt.",
+        "url": "https://www.deutscher-engagementpreis.de/engagiertenfinder/engagiertendetails/6655-klima-schuetzen-mit-zahlen",
+        "city": "Köln",
+        "location_note": "Stadtgebiet Köln; Kartenpunkt ist eine ungefähre Stadtmitte, keine Projektadresse.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet (ungefähr)",
+        "source_year": "2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9705,
+          51.4825
+        ]
+      },
+      "properties": {
+        "id": "A2030-133",
+        "name": "Move Together – Inklusion im Sport",
+        "status": "O.K.",
+        "category": "Inklusion; Kultur & Bewegung; Soziales",
+        "type": "Lokales Projekt",
+        "description": "Tanz- und Begegnungsprojekt, das Menschen mit und ohne Behinderung zusammenbringt; im Engagiertenfinder für 2026 beschrieben.",
+        "url": "https://www.deutscher-engagementpreis.de/engagiertenfinder/engagiertendetails/7220-inklusion-im-sport",
+        "city": "Halle (Saale)",
+        "location_note": "Stadtgebiet Halle (Saale); Kartenpunkt nur ungefähr.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet (ungefähr)",
+        "source_year": "2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6257,
+          52.2945
+        ]
+      },
+      "properties": {
+        "id": "A2030-134",
+        "name": "Bürgerstiftung Königs Wusterhausen – Demokratie für Grundschulkinder",
+        "status": "O.K.",
+        "category": "Bürgerbeteiligung; Jugend & Bildung",
+        "type": "Lokales Bildungsprojekt",
+        "description": "Projekt macht Demokratie für Grundschulkinder erlebbar; im Engagiertenfinder 2026 aufgeführt.",
+        "url": "https://www.deutscher-engagementpreis.de/engagiertenfinder/engagiertendetails/7036-buergerstiftung-koenigs-wusterhausen",
+        "city": "Königs Wusterhausen",
+        "location_note": "Stadtgebiet Königs Wusterhausen; Kartenpunkt ungefähr, keine Projektadresse.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet (ungefähr)",
+        "source_year": "2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.405,
+          52.52
+        ]
+      },
+      "properties": {
+        "id": "A2030-135",
+        "name": "Pfeffersport e.V. – FAIR FRIENDS",
+        "status": "O.K.",
+        "category": "Integration; Inklusion; Jugend & Bildung; Sport",
+        "type": "Inklusions- und Bildungsprojekt",
+        "description": "Fußball und kulturelle Begegnung als Brücke für Bildung und Demokratie; Profil beschreibt ein Projekt über ein Schuljahr und die Zusammenarbeit von Berlin, Stettin und Kolberg. Für den Deutschen Engagementpreis 2026 nominiert.",
+        "url": "https://www.deutscher-engagementpreis.de/engagiertenfinder/engagiertendetails/6809-pfeffersport-ev-fair-friends-2023/24-fussball-und-sportliche-begegnung-als-bruecke-fuer-bildung-und-demokratie",
+        "city": "Berlin",
+        "location_note": "Stadtgebiet Berlin; das beschriebene Projekt hatte auch Partner in Polen. Kartenpunkt ist nur ungefähr.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet (ungefähr)",
+        "source_year": "2026 (Nominierung; Projektbeispiel 2023/24)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6808,
+          50.5558
+        ]
+      },
+      "properties": {
+        "id": "A2030-136",
+        "name": "Medienpädagogik Praxis Camp",
+        "status": "O.K.",
+        "category": "Jugend & Bildung; Medienkompetenz",
+        "type": "Bildungsnetzwerk / Veranstaltung",
+        "description": "Austausch- und Praxisformat zur Medienpädagogik; im Engagiertenfinder als für den Deutschen Engagementpreis 2026 nominiertes Projekt aufgeführt.",
+        "url": "https://www.deutscher-engagementpreis.de/engagiertenfinder/engagiertendetails/6669-medienpaedagogik-praxis-camp",
+        "city": "Fulda",
+        "location_note": "Fulda laut Portalprofil; Kartenpunkt ist ungefähre Stadtlage.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet (ungefähr)",
+        "source_year": "2026 (Nominierung; nächster Termin offen)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0767,
+          49.4521
+        ]
+      },
+      "properties": {
+        "id": "A2030-137",
+        "name": "DLRG Nürnberg – Jugend-Einsatz-Team (JET)",
+        "status": "O.K.",
+        "category": "Jugend & Bildung; Gesundheit; Rettungswesen; Umwelt",
+        "type": "Jugendprojekt / Rettungswesen",
+        "description": "Jugendliche von 12 bis 18 Jahren lernen Teamarbeit, Wasserrettung und Verantwortung; im Engagiertenfinder für den Deutschen Engagementpreis 2026 nominiert.",
+        "url": "https://www.deutscher-engagementpreis.de/engagiertenfinder/engagiertendetails/6685-jugend-einsatz-team-jet-dlrg-kv-nuernberg-roth-schwabach",
+        "city": "Nürnberg",
+        "location_note": "Stadtgebiet Nürnberg; Kartenpunkt nur ungefähr.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet (ungefähr)",
+        "source_year": "2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6124,
+          47.7811
+        ]
+      },
+      "properties": {
+        "id": "A2030-138",
+        "name": "DRK Ravensburg – Kinder-Krisen-Einsatzdienst",
+        "status": "O.K.",
+        "category": "Menschen helfen; Kinder & Familie; Krisenhilfe",
+        "type": "Ehrenamtliches Hilfsprojekt",
+        "description": "Ehrenamtliches Projekt des DRK-Kreisverbands Ravensburg zur Unterstützung von Kindern nach belastenden Krisen; im Engagiertenfinder 2026 aufgeführt.",
+        "url": "https://www.deutscher-engagementpreis.de/engagiertenfinder/engagiertendetails/6850-drk-kreisverband-ravensburg-ev-mit-dem-ehrenamtlichen-projekt-kinder-krisen-einsatzdienst",
+        "city": "Ravensburg",
+        "location_note": "Stadtgebiet Ravensburg; Kartenpunkt nur ungefähr.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet (ungefähr)",
+        "source_year": "2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0982,
+          50.7374
+        ]
+      },
+      "properties": {
+        "id": "A2030-139",
+        "name": "MINTKIDS – Das Vorlesenetzwerk (Bürgerstiftung Bonn)",
+        "status": "O.K.",
+        "category": "Jugend & Bildung; Chancengerechtigkeit",
+        "type": "Bildungsprojekt / Ehrenamtsnetzwerk",
+        "description": "Ehrenamtliche Vorlesepat*innen verbinden Geschichten mit Experimenten und Forscheraufträgen zu Mathematik, Informatik, Naturwissenschaften und Technik; 2026 für den Deutschen Engagementpreis nominiert.",
+        "url": "https://www.deutscher-engagementpreis.de/engagiertenfinder/engagiertendetails/7003-mintkids-das-vorlesenetzwerk-traeger-buergerstiftung-bonn",
+        "city": "Bonn",
+        "location_note": "Stadtgebiet Bonn; Kartenpunkt ungefähr, keine einzelne Kita-/Schuladresse.",
+        "map_pin": true,
+        "location_precision": "Stadtgebiet (ungefähr)",
+        "source_year": "2026"
       }
     }
   ]
