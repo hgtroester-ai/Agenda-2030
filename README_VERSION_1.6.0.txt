@@ -1,4 +1,4 @@
-Agenda 2030 – Website-Paket v1.6.0
+Agenda 2030 – Historische Notiz: Website-Paket v1.6.0
 Stand: 22.10.2026
 
 Änderungen:
