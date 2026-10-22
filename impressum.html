@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Impressum der ehrenamtlichen Initiative Agenda 2030 – Gemeinsam Zukunft gestalten.">
+<meta name="robots" content="index,follow">
+<title>Impressum | Agenda 2030 · Version 1.5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span><span class="brand-name">AGENDA 2030<small>Gemeinsam Zukunft gestalten</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="side-menu" onclick="const m=document.getElementById('side-menu'); const open=m.classList.toggle('open'); this.setAttribute('aria-expanded',open?'true':'false');">Menü</button>
+  </div>
+</header>
+<div class="layout">
+  <aside class="side-nav">
+    <p class="nav-label">Navigation</p>
+    <nav id="side-menu" aria-label="Hauptnavigation">
+      <a href="index.html">Startseite</a>
+      <a href="agenda.html">Unsere Agenda</a>
+      <a href="projekte.html">Projekte</a>
+      <a href="karte.html">Deutschlandkarte</a>
+      <a href="mitmachen.html">Mitmachen</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="grundsaetze.html">Grundsätze</a>
+      <a href="impressum.html" aria-current="page">Impressum</a>
+    </nav>
+  </aside>
+  <main>
+    <section class="pagehead">
+      <p class="eyebrow">Transparenz · Version 1.5</p>
+      <h1>Impressum</h1>
+      <p class="lead">Angaben zur verantwortlichen Person für das ehrenamtliche Informationsangebot „Agenda 2030 – Gemeinsam Zukunft gestalten“.</p>
+    </section>
+    <div class="content">
+      <section class="contact-panel">
+        <h2>Verantwortlich für dieses Internetangebot</h2>
+        <p id="responsible-person">Die Angaben werden für die Anzeige im Browser bereitgestellt.</p>
+        <p><strong>E-Mail:</strong> <a id="impressum-email" href="#">E-Mail-Kontakt</a></p>
+      </section>
+      <div class="contact-note">
+        <strong>Hinweis zum Datenschutz:</strong>
+        <p>Die Angaben werden im Browser zusammengesetzt, um einfache automatisierte Sammler zu erschweren. Das ist keine Verschlüsselung und verhindert nicht, dass Suchmaschinen oder Bots die Angaben durch Ausführung von JavaScript, OCR oder Analyse des Quellcodes erkennen.</p>
+      </div>
+      <p class="small">Agenda 2030 ist ein ehrenamtliches, nicht kommerzielles Informationsangebot zur Vorstellung von Projekten und Mitmachmöglichkeiten. Version 1.5 · 22.10.2026</p>
+    </div>
+  </main>
+</div>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <a class="brand" href="index.html"><span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span><span class="brand-name">AGENDA 2030<small>Gemeinsam Zukunft gestalten</small></span></a>
+    <div class="footer-links">
+      <a href="index.html">Startseite</a><a href="agenda.html">Unsere Agenda</a><a href="projekte.html">Projekte</a><a href="karte.html">Deutschlandkarte</a><a href="mitmachen.html">Mitmachen</a><a href="kontakt.html">Kontakt</a><a href="grundsaetze.html">Grundsätze</a><a href="impressum.html">Impressum</a>
+    </div>
+  </div>
+  <p class="small" style="text-align:center">Agenda 2030 · Version 1.5 · 22.10.2026</p>
+</footer>
+<script>
+/* Obfuscation against simple text-only scraping only. The public page remains recoverable. */
+(function () {
+  const codes = [
+    72,97,110,115,45,71,101,111,114,103,32,84,114,246,115,116,101,114,10,
+    75,97,114,108,115,116,114,97,223,101,32,53,51,10,
+    56,48,51,51,51,32,77,252,110,99,104,101,110
+  ];
+  const address = String.fromCharCode(...codes).split('\n');
+  const person = document.getElementById('responsible-person');
+  person.replaceChildren();
+  address.forEach((line, index) => {
+    if (index) person.appendChild(document.createElement('br'));
+    person.appendChild(document.createTextNode(line));
+  });
+  const email = String.fromCharCode(97,103,101,110,100,97,50,48,51,48,64,109,97,105,108,46,100,101);
+  const link = document.getElementById('impressum-email');
+  link.href = 'mailto:' + email;
+  link.textContent = email;
+})();
+</script>
+</body>
+</html>
