@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Interaktive Deutschlandkarte mit geprüften Projekten der Agenda 2030.">
-<title>Deutschlandkarte | Agenda 2030 · v1.6.0</title>
+<title>Deutschlandkarte | Agenda 2030 · v1.8.1</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 </head>
@@ -23,7 +23,7 @@
 <p>Einige überregionale Organisationen und Projektarten sind weiterhin ohne Kartenpunkt gelistet, bis konkrete lokale Standorte belastbar zugeordnet sind.</p>
 </section></main>
 <aside class="side-nav"><p class="nav-label">Navigation</p><nav id="side-menu" aria-label="Hauptnavigation"><a href="index.html">Startseite</a><a href="agenda.html">Unsere Agenda</a><a href="projekte.html">Projekte</a><a href="karte.html" aria-current="page">Deutschlandkarte</a><a href="mitmachen.html">Mitmachen</a><a href="kontakt.html">Kontakt</a><a href="grundsaetze.html">Grundsätze</a></nav><div class="side-note"><strong>Geprüfte Projekte.</strong><br>Orte entdecken. Menschen verbinden. Aktiv werden.</div></aside></div>
-<footer class="site-footer"><div class="footer-inner"><div><a class="brand" href="index.html"><span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span><span class="brand-name">AGENDA 2030<small>Gemeinsam Zukunft gestalten</small></span></a><div class="footer-links"><a href="index.html">Startseite</a><a href="agenda.html">Unsere Agenda</a><a href="projekte.html">Projekte</a><a href="karte.html">Deutschlandkarte</a><a href="mitmachen.html">Mitmachen</a><a href="kontakt.html">Kontakt</a><a href="grundsaetze.html">Grundsätze</a><a href="impressum.html">Impressum</a></div></div></div><div class="bottom-grid"></div><p class="small" style="text-align:center">Projektregister und Karte · Version 1.8.0 · 21.10.2026</p></footer>
+<footer class="site-footer"><div class="footer-inner"><div><a class="brand" href="index.html"><span class="logo" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span><span class="brand-name">AGENDA 2030<small>Gemeinsam Zukunft gestalten</small></span></a><div class="footer-links"><a href="index.html">Startseite</a><a href="agenda.html">Unsere Agenda</a><a href="projekte.html">Projekte</a><a href="karte.html">Deutschlandkarte</a><a href="mitmachen.html">Mitmachen</a><a href="kontakt.html">Kontakt</a><a href="grundsaetze.html">Grundsätze</a><a href="impressum.html">Impressum</a></div></div></div><div class="bottom-grid"></div><p class="small" style="text-align:center">Projektregister und Karte · Version 1.8.1 · 22.10.2026</p></footer>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
 (function(){
@@ -53,7 +53,7 @@
       if(p.url&&/^https?:\/\//i.test(p.url))popup+='<p><a href="'+safeText(p.url)+'" target="_blank" rel="noopener noreferrer">Quelle / Projektseite öffnen ↗</a></p>';
       popup+='</div>';marker.bindPopup(popup);pins++;
     });
-    status.textContent='Suchergebnisse: '+matched.length+' von '+features.length+' Registereinträgen in der Liste; davon '+pins+' geografisch zugeordnete Markierungen auf der Karte (grün: O.K., gelb: teilweise geprüft, grau: offen).';
+    status.textContent=window.A2030_t('Suchergebnisse: '+matched.length+' von '+features.length+' Registereinträgen in der Liste; davon '+pins+' geografisch zugeordnete Markierungen auf der Karte (grün: O.K., gelb: teilweise geprüft, grau: offen).','Search results: '+matched.length+' of '+features.length+' register entries in the list; '+pins+' geographically assigned map markers (green: OK, yellow: partially reviewed, grey: open).');
     if(!matched.length){results.innerHTML='<p class="notice">Keine Projekte gefunden. Bitte Suchbegriff oder Themenbereich ändern.</p>';return;}
     results.innerHTML=matched.map(f=>{const p=f.properties||{};let s='<article class="project-result"><div class="result-top"><span class="result-id">'+safeText(p.id)+'</span><span class="result-status">'+safeText(p.status||'Status offen')+'</span></div><h3>'+safeText(p.name)+'</h3><p class="result-category">'+safeText(p.category||'Themenbereich offen')+'</p>'+(p.description?'<p>'+safeText(p.description)+'</p>':'')+(p.city?'<p><strong>Stadtzuordnung:</strong> '+safeText(p.city)+' — '+safeText(p.location_note||'Stadtgebiet')+'</p>':'<p class="small">Noch kein eindeutig bestätigter einzelner Kartenstandort im Register.</p>')+(p.url&&/^https?:\/\//i.test(p.url)?'<p><a href="'+safeText(p.url)+'" target="_blank" rel="noopener noreferrer">Projektquelle öffnen ↗</a></p>':'')+'</article>';}).join('');
   }
@@ -63,7 +63,7 @@
     const categories=[...new Set(features.map(f=>f.properties.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'de'));
     categories.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;category.appendChild(o);});
     render();
-  }).catch(()=>{status.textContent='Die Projektdaten konnten nicht geladen werden. Bitte prüfen, ob projekte.geojson im selben GitHub-Ordner wie karte.html liegt.';results.innerHTML='<p class="notice">Projektliste nicht geladen.</p>';});
+  }).catch(()=>{status.textContent=window.A2030_t('Die Projektdaten konnten nicht geladen werden. Bitte prüfen, ob projekte.geojson im selben GitHub-Ordner wie karte.html liegt.','Project data could not be loaded. Check that projekte.geojson is in the same GitHub folder as karte.html.');results.innerHTML='<p class="notice">'+window.A2030_t('Projektliste nicht geladen.','Project list could not be loaded.')+'</p>';});
 })();
 </script>
 <script src="i18n.js"></script></body></html>
